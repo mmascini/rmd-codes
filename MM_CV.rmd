@@ -1,0 +1,847 @@
+---
+
+title: "MM_CV_eng"
+
+author: "Marcello Mascini"
+
+date: "4/24/2022"
+
+output: html_document
+
+---
+
+
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+
+
+
+
+#	PERSONAL INFORMATION
+
+ ![ MM Photo ](F:/Rmd_Project/MMcvFoto.jpg)
+
+
+
+Marcello Mascini PhD
+
+Mail: mmascini@unite.it; marcellomascini@gmail.com
+
+Tel: +393478456234
+
+Nationality: Italian and French 
+
+Languages known: Italian (mother tongue) English (spoken, written and read), French (spoken written and read) and Spanish (spoken, written and read).
+
+Web pages: 
+
+https://www.unite.it/UniTE/Engine/RAServePG.php/P/191251UTE2848/M/189521UTE2848?&VRIC_IDOC=435
+
+https://scholar.google.it/citations?user=APvh_ycAAAAJ&hl=en
+
+
+
+
+
+
+#	EDUCATION AND TRAINING
+
+
+
+Master Degree in Chemistry (University of La Sapienza, Rome (Italy)
+
+Master Degree in Geology (University of La Sapienza, Rome (Italy).
+
+2003 PhD degree awarded by the Institute of Bioscience and Technology, University of Cranfield (UK) supervised by Prof. P. Warner e Prof. B. Chen with the project “DNA and peptide sensors in food and environmental applications”.
+
+2006 postdoctoral fellowship 6th European Framework Programme with the project “Biomimetic Sensors Design For Foodborne Pathogens Detection: A Mixed Computational And Experimental Approach” in collaboration with by Prof G. Guilbault University College Cork (Ireland).
+
+2015 postdoctoral fellowship Horizon 2020 with the project “A new generation of AptaSensors” in collaboration with Prof G. Pingarron, Complutense University of Madrid (Spain), and Prof J. Wang, The Regents of the University of California, U.C. San Diego (USA).
+
+
+
+#	PROFESSIONAL EXPERIENCES
+
+
+
+1998–2000 Chemist in the Refinery of Gela (Italy) in the remediation and prevention technology (AGIP Company).
+
+2000-2004 Research Assistant in University of Teramo, Faculty of Agriculture, Italy.
+
+2005-2019 Assistant professor in Analytical Chemistry at the University of Teramo.
+
+2006-2007 Visiting researcher in the group of Prof. Guilbault at the University of Cork (Ireland).
+
+2016 Visiting researcher in the group of Prof. Joseph Wang at the University of California San Diego (USA).
+
+2017 Visiting researcher in the group of Prof. Sylvia Daunert at the University of Miami (USA).
+
+2019-Ongoing. Associate Professor in Analytical chemistry, at University of Teramo, Faculty of Bioscience and Technology for Food Agriculture and Environment.
+
+2020-Ongoing. Editorial Board member of international journal “Chemosensors” (Multidisciplinary Digital Publishing Institute-MDPI).
+
+2022-Ongoing. Executive editor for the for the journal “Analytical Biochemistry” (ELSEVIER).
+
+
+
+#	RESEARCH AND SCIENTIFIC IMPACT
+
+
+
+M. Mascini has published more than 70 papers (60% as corresponding author) on international scientific journals (peer-reviewed) with an average Impact Factor of 4.
+
+He actively participates in national and international scientific meetings with more than 100 posters or oral presentations.
+
+M. Mascini research area is focused on the development of screening methods for fast and real time detection of analytes important for food, environmental and health analysis. The research interests are on new methods to develop bio-inspired and bio-mimetic systems in analytical application using molecular modeling and multivariate analysis.
+
+
+
+#	INVOLVEMENT IN RESEARCH AND INNOVATION PROJECTS 
+
+
+
+2000-2002 Funded by: MINISTRY of Health (Italy); Project: Sviluppo e validazione di un multisensore per screening rapido ed a basso costo per Ia determinazione di sostanze tossiche negli alimenti di origine animale; Role: Coordinator.
+
+2000-2002 Funded by: EU; Project: BIOSET: Biosensors for Environmental Technology; Role: Participant.
+
+2001-2003 Funded by: EU; Project: SENSPOL: EUROPEAN NETWORK ON SENSORS FOR MONITORING WATER POLLUTION; Role: Participant.
+
+2003-2006 Funded by: MIUR (Italian Ministry of Research) PON; Project: Modelling of an integrated system for the management of the safety of durum wheat chain; Role: Participant.
+
+2004-2005 Funded by: MIUR (Italian Ministry of Research); Project: Sensori di affinità per la sicurezza della filiera del grano duro e per la qualità dei prodotti di acquicoltura; Role: Participant.
+
+2006-2007 Funded by: MAE (Italian Ministry of Foreign Affairs); Project: Progettazione e Sviluppo di recettori biomimetici per applicazioni analitiche; Role: Participant.
+
+2006-2007 Funded by: EU; Project: Biomimetic Sensors Design For foodborne Pathogen Detection: A Mixed Computational and Experimental Approach; Role: apal Investigator.
+
+2008-2008 Funded by: CNR Short-term mobility 2008; Project: Rational design of artificial oligopeptides used as mimic of ache for pesticides extraction; Role: Principal Investigator.
+
+2008-2010 Funded by: MIUR (Italian Ministry of Research); Project: Inserzione di unità organiche, organometalliche e biomimetiche in strutture oligomeriche e polimeriche coniugate. Formazione di materiali a trasduzione ottica per impieghi in sensoristica; Role: Participant.
+
+2009-2010 Funded by: MAE (Italian Ministry of Foreign Affairs); Project: Detection of contaminants in food. Development of rapid assays for genotoxicity of polycyclic aromatic hydrocarbons; Role: Participant.
+
+2009-2012 Funded by: EU; Project: Biomimetic sensors as new generation of biotechnological devices for food safety and quality monitoring (BIOMIMIC-IRSES 230849); Role: Coordinator.
+
+2009-2012 Funded by: EU; Project: Electrochemical biosensors as new generation of biotechnological devices for food safety and quality monitoring (NANOSENS-IRSES 230815); Role: Coordinator.
+
+2014-2019 Funded by: University of Teramo; Project: University of Teramo- University of Havana cooperation agreement; Role: Coordinator.
+
+2016-2019 Funded by: EU; Project: A new generation of AptaSensors (APTASENS-2020-MSCA-IF-2014_GF 656687); Role: Principal Investigator.
+
+2017-2020 Funded by: EU; Project: Ag-Lab Improving skills in laboratory practice for agro-food specialists in eastern Europe; Role: Participant.
+
+2021-2023 Funded by: NSF (USA); Project: AccelNet: Full-Scale Implementation of the International Institute for Biosensing; Role: Participant.
+
+
+
+#	FELLOWSHIPS AND LECTURESHIPS TO NATIONAL AND INTERNATIONAL RESEARCH ORGANIZATION
+
+
+
+2006-2007 Type: Fellowship; Organization: University of Cork (Ireland).
+
+2009-2011 Type: lectureship; Organization: University of Mohammedia (Morocco).
+
+2010-2012 Type: lectureship; Organization: University of Sao Paulo (Brazil).
+
+2012-Ongoing. Type: Lectureship; Organization: University of Havana (Cuba).
+
+2016-2017 Type: Lectureship; Organization: University of California San Diego (USA).
+
+2017-Ongoing. Type: Lectureship; Organization: University of Miami (USA).
+
+
+
+#	REVIEWER FOR INTERNATIONAL JOURNALS
+
+
+
+From 2007 the peer-reviewer activity is regularly carried out on an average of 10 articles/year in the following journals: Biosensors and Bioelectronics; Electroanalysis; Talanta; Analytica Chimica Acta; Bioelectrochemistry; Analytical chemistry.
+
+Member of the Editorial Board of the journal Chemosensors (Open Access Journal from MDPI).
+
+Executive Editor of Analytical Biochemistry (ELSEVIER).
+
+
+
+#	INTERNATIONAL COLLABORATIONS AND AFFILIATIONS
+
+
+
+2000-2003 Country: UK; Organization: Institute of BioScience and Technology, Cranfield University.
+
+2007-2015 Country: Italy; Organization: Istituto di Metodologie Chimiche, Consiglio Nazionale delle Ricerche (CNR).
+
+2006-2007 Country: Ireland; Organization: University College Cork (UCC), Cork.
+
+2016-2019 Country: Spain; Organization: Complutense University of Madrid.
+
+2016-2018 Country: USA; Organization: University of California, U.C. San Diego.
+
+
+
+#	SCIENTIFIC ACHIEVEMENTS
+
+
+
+Ongoing. Patent Method of CLAMP PEPTIDES FOR PREVENTION, TREATMENT, AND DIAGNOSIS OF SARS-COV-2 VIRUS AND ITS VARIANTS; U.S. Patent Application in progress.
+
+
+
+Ongoing. Patent Method of DESIGNING NOVEL ANTIBODY MIMETICS FOR USE IN DETECTING ANTIGENS AND AS THERAPEUTIC AGENTS; U.S. Patent Application No.: 16/441,646
+
+
+
+2022-2037 Patent Method of ZIKA VIRUS ASSAY SYSTEMS; U.S. Patent No. US 2019 / 0317094 A1.
+
+
+
+#	EXPERT FOR RESEARCH PROJECTS EVALUATION
+
+
+
+2008-2013 Type: Independent expert; Organization: 7th Framework Programme, European commission
+
+2009-ongoing. Type: Valutatore; Organization: MIUR (Italian Ministry of Research)
+
+2014-ongoing. Type: Independent expert; Organization: European research and innovation HORIZON 2020
+
+2018-ongoing. Type: Independent expert; Organization: National Fund for Scientific and Technological Development (FONDECYT), Government of Chile
+
+
+
+#	INVITATIONS TO GIVE LECTURES, SEMINARS, "PLENARY LECTURES" AND "KEYNOTES"
+
+
+
+2004 Location: Camerino (Italy); Organization: University of Camerino; Type: SEMINAR.
+
+2005 Location: Tokio (Japan); Organization: BioDot Inc.; Type: PLENARY LECTURE.
+
+2005 Location: Taipei (Taiwan); Organization: BioDot Inc.; Type: PLENARY LECTURE.
+
+2009 Location: Araraquara (Brazil); Organization: UNIVERSIDADE ESTADUAL PAULISTA (UNESP); Type: PLENARY LECTURE.
+
+2015 Location: Rome (Italy); Organization: Icqrf - Ministero delle Politiche Agricole e Forestali; Type: SEMINARY.
+
+2016 Location: Rome (Italy); Organization: Icqrf - Ministero delle Politiche Agricole e Forestali; Type: SEMINARY.
+
+2017 Location: Rome (Italy); Organization: Icqrf - Ministero delle Politiche Agricole e Forestali; Type: SEMINARY.
+
+2017 Location: MIAMI (USA); Organization: University of Miami Dep Biochemistry; Type: SEMINARY.
+
+2018 Location: Rome (Italy); Organization: Icqrf - Ministero delle Politiche Agricole e Forestali; Type: SEMINARY.
+
+2018 Location: MIAMI (USA); Organization: University of Miami Dep Biochemistry; Type: LECTURE.
+
+2019 Location: TBILISI (ARMENIA); Organization: AgLab project-Tbilisi State University; Type: LECTURE.
+
+
+
+#	INSTITUTIONAL ACTIVITIES
+
+
+
+2012-2017 Type: MEMBRO Commissione Assicurazione di Qualità; Organization: University of Teramo (CdL Viticoltura ed Enologia).
+
+2020-Ongoing. Type: Referente di ATENEO per il Programma universitario "doppia carriera studenti - atleti", percorso "dual career"; Organization: University of Teramo Faculty of Bioscience.
+
+2020-Ongoing. Type: MEMBRO Commissione Assicurazione di Qualità; Organization: University of Teramo (CdL Biotecnologie Avanzate).
+
+
+
+#	TEACHING ACTIVITIES
+
+
+
+Since 2004 he is/was teacher at the University of Teramo in modules/disciplines dealing with:
+
+Laboratory of Food Analysis
+
+Statistical Data analysis
+
+Food Analysis for Quality control
+
+Chemistry
+
+Experimental Design and Chemometrics in Food.
+
+2004-2005 Role: Professor; Course: Laboratorio di chimica analitica; Degree:Laurea in Scienze e Tecnologie Alimentari; University: University of Teramo; Credits (CFU): 3.
+
+2004-2005 Role: Professor; Course: Laboratorio di chimica analitica; Degree:Laurea in Viticoltura ed Enologia; University: University of Teramo; Credits (CFU): 3.
+
+2005-2006 Role: Professor; Course: Laboratorio di chimica analitica; Degree:Laurea in Scienze e Tecnologie Alimentari; University: University of Teramo; Credits (CFU): 3.
+
+2005-2006 Role: Professor; Course: Laboratorio di chimica analitica; Degree:Laurea in Viticoltura ed Enologia; University: University of Teramo; Credits (CFU): 3.
+
+2005-2006 Role: Professor; Course: Trattamento statistico dei dati; Degree:Laurea Specialistica in Scienze e Tecnologie Alimentari; University: University of Teramo; Credits (CFU): 5.
+
+2006-2007 Role: Professor; Course: Laboratorio di chimica analitica; Degree:Laurea in Scienze e Tecnologie Alimentari; University: University of Teramo; Credits (CFU): 3.
+
+2006-2007 Role: Professor; Course: Laboratorio di chimica analitica; Degree:Laurea in Viticoltura ed Enologia; University: University of Teramo; Credits (CFU): 3.
+
+2006-2007 Role: Professor; Course: Trattamento statistico dei dati; Degree:Laurea Specialistica in Scienze e Tecnologie Alimentari; University: University of Teramo; Credits (CFU): 5.
+
+2007-2008 Role: Professor; Course: Laboratorio di chimica analitica; Degree:Laurea in Scienze e Tecnologie Alimentari; University: University of Teramo; Credits (CFU): 3.
+
+2007-2008 Role: Professor; Course: Laboratorio di chimica analitica; Degree:Laurea in Viticoltura ed Enologia; University: University of Teramo; Credits (CFU): 3.
+
+2007-2008 Role: Professor; Course: Trattamento statistico dei dati; Degree:Laurea Specialistica in Scienze e Tecnologie Alimentari; University: University of Teramo; Credits (CFU): 5.
+
+2007-2008 Role: Professor; Course: Chimica; Degree:Laurea in Tutela e benessere animale; University: University of Teramo; Credits (CFU): 5.
+
+2008-2009 Role: Professor; Course: Laboratorio di chimica analitica; Degree:Laurea in Scienze e Tecnologie Alimentari; University: University of Teramo; Credits (CFU): 3.
+
+2008-2009 Role: Professor; Course: Laboratorio di chimica analitica; Degree:Laurea in Viticoltura ed Enologia; University: University of Teramo; Credits (CFU): 3.
+
+2008-2009 Role: Professor; Course: Trattamento statistico dei dati; Degree:Laurea Specialistica in Scienze e Tecnologie Alimentari; University: University of Teramo; Credits (CFU): 5.
+
+2008-2009 Role: Professor; Course: Chimica; Degree:Laurea in Tutela e benessere animale; University: University of Teramo; Credits (CFU): 5.
+
+2009-2010 Role: Professor; Course: Analisi Controllo Qualita'; Degree:Laurea in Viticoltura ed Enologia; University: University of Teramo; Credits (CFU): 7.
+
+2010-2011 Role: Professor; Course: Analisi Controllo Qualita'; Degree:Laurea in Viticoltura ed Enologia; University: University of Teramo; Credits (CFU): 7.
+
+2011-2012 Role: Professor; Course: Analisi Controllo Qualita'; Degree:Laurea in Viticoltura ed Enologia; University: University of Teramo; Credits (CFU): 7.
+
+2012-2013 Role: Professor; Course: Analisi Controllo Qualita'; Degree:Laurea in Viticoltura ed Enologia; University: University of Teramo; Credits (CFU): 7.
+
+2013-2014 Role: Professor; Course: Chimica; Degree:Laurea in Tutela e benessere animale; University: University of Teramo; Credits (CFU): 5.
+
+2013-2014 Role: Professor; Course: Elementi di Chimica; Degree:Laurea in Veterinaria; University: University of Teramo; Credits (CFU): 3.
+
+2013-2014 Role: Professor; Course: Analisi Controllo Qualita'; Degree:Laurea in Viticoltura ed Enologia; University: University of Teramo; Credits (CFU): 7.
+
+2014-2015 Role: Professor; Course: Chimica; Degree:Laurea in Tutela e benessere animale; University: University of Teramo; Credits (CFU): 5.
+
+2014-2015 Role: Professor; Course: Elementi di Chimica; Degree:Laurea in Veterinaria; University: University of Teramo; Credits (CFU): 3.
+
+2015-2016 Role: Professor; Course: Chimica; Degree:Laurea in Tutela e benessere animale; University: University of Teramo; Credits (CFU): 5.
+
+2015-2016 Role: Professor; Course: Elementi di Chimica; Degree:Laurea in Veterinaria; University: University of Teramo; Credits (CFU): 3.
+
+2015-2016 Role: Professor; Course: Analisi Controllo Qualita'; Degree:Laurea in Viticoltura ed Enologia; University: University of Teramo; Credits (CFU): 7.
+
+2015-2016 Role: Professor; Course: Statistica Multivariata Applicata; Degree:Laurea Magistrale Scienze e tecnologie alimentari; University: University of Teramo; Credits (CFU): 3.
+
+2016-2017 Role: Professor; Course: Analisi Controllo Qualita'; Degree:Laurea in Viticoltura ed Enologia; University: University of Teramo; Credits (CFU): 7.
+
+2016-2017 Role: Professor; Course: Experimental Design and Chemometrics in Food; Degree:Laurea Magistrale in Food Science and technology; University: University of Teramo; Credits (CFU): 5.
+
+2017-2018 Role: Professor; Course: Experimental Design and Chemometrics in Food; Degree:Laurea Magistrale in Food Science and technology; University: University of Teramo; Credits (CFU): 5.
+
+2017-2018 Role: Professor; Course: Chimica; Degree:Laurea in Tutela e benessere animale; University: University of Teramo; Credits (CFU): 5.
+
+2017-2018 Role: Professor; Course: Elementi di Chimica; Degree:Laurea in Veterinaria; University: University of Teramo; Credits (CFU): 3.
+
+2018-2019 Role: Professor; Course: Experimental Design and Chemometrics in Food; Degree:Laurea Magistrale in Food Science and technology; University: University of Teramo; Credits (CFU): 5.
+
+2018-2019 Role: Professor; Course: Chimica; Degree:Laurea in Tutela e benessere animale; University: University of Teramo; Credits (CFU): 5.
+
+2018-2019 Role: Professor; Course: Elementi di Chimica; Degree:Laurea in Veterinaria; University: University of Teramo; Credits (CFU): 3.
+
+2019-2020 Role: Professor; Course: Experimental Design and Chemometrics in Food; Degree:Laurea Magistrale in Food Science and technology; University: University of Teramo; Credits (CFU): 5.
+
+2019-2020 Role: Professor; Course: Chimica; Degree:Laurea in Tutela e benessere animale; University: University of Teramo; Credits (CFU): 5.
+
+2019-2020 Role: Professor; Course: Elementi di Chimica; Degree:Laurea in Veterinaria; University: University of Teramo; Credits (CFU): 3.
+
+2020-2021 Role: Professor; Course: Experimental Design and Chemometrics in Food; Degree:Laurea Magistrale in Food Science and technology; University: University of Teramo; Credits (CFU): 5.
+
+2020-2021 Role: Professor; Course: Chimica delle Trasformazioni Alimentari; Degree:Laurea in Scienze e culture gastronomiche per la sostenibilità; University: University of Teramo; Credits (CFU): 6.
+
+2020-2021 Role: Professor; Course: Chemometria Applicata; Degree:Laurea Magistrale in Biotecnologie Avanzate; University: University of Teramo; Credits (CFU): 5.
+
+2021-2022 Role: Professor; Course: Elementi di chimica analitica del suolo e dei fitofarmaci; Degree:Laurea in Intensificazione sostenibile delle produzioni ortofrutticole di qualità; University: University of Teramo; Credits (CFU): 4.
+
+2021-2022 Role: Professor; Course: Experimental Design and Chemometrics in Food; Degree:Laurea Magistrale in Food Science and technology; University: University of Teramo; Credits (CFU): 5.
+
+2021-2022 Role: Professor; Course: Chimica delle Trasformazioni Alimentari; Degree:Laurea in Scienze e culture gastronomiche per la sostenibilità; University: University of Teramo; Credits (CFU): 6.
+
+2021-2022 Role: Professor; Course: Chemometria Applicata; Degree:Laurea Magistrale in Biotecnologie Avanzate; University: University of Teramo; Credits (CFU): 5.
+
+
+
+#	SUPERVISOR OF DEGREE AND DOCTORAL THESIS
+
+
+
+2005 Candidate: Sabrina Catasta; Thesis Title: Determinazione di heat shock protein 70 mediante sensore piezoelettrico; Type: Degree thesis (5 years); Organization: University of Teramo
+
+2006 Candidate: Valentina Giammarco; Thesis Title: Recettori biomimetici per l’analisi di pesticidi; Type: Degree thesis (5 years); Organization: University of Teramo
+
+2007 Candidate: Valeria Lattanzi; Thesis Title: Sviluppo di metodi rapidi per la determinazione di metalli pesanti in bevande; Type: Degree thesis (3 years); Organization: University of Teramo
+
+2008 Candidate: Donato Mancini; Thesis Title: Sensori biomimetici per la determinazione delle Heat Shock Proteins (HSPs) in Mytilus Galloprovincialis; Type: Degree thesis (3 years); Organization: University of Teramo
+
+2010 Candidate: Luciano Castagna; Thesis Title: Sensori elettrochimici per la determinazione di idrossimetilfurfurale (HMF); Type: Degree thesis (3 years); Organization: University of Teramo
+
+2012 Candidate: German Perez; Thesis Title: Rational design of bio-ispired and bio-mimetic receptors: A Docking-Based Inverse Screening Approach; Type: PhD; Organization: University of Havana
+
+2013 Candidate: Valentina Lanzone; Thesis Title: Detection of contaminants in food using DNA and peptide based bioassays; Type: PhD; Organization: University of Teramo
+
+2014 Candidate: German Perez; Thesis Title: Virtual screening approach for identification of peptide-based receptors for aroma molecules; Type: DGSP Fellowship; Organization: MAE (Italian Ministry of Foreign Affairs)
+
+2015 Candidate: Jessica Cornice; Thesis Title: Estrazione di pesticidi organofosfati e carbammati mediante bioinspired spe seguita da uhplc-ms/ms; Type: Degree thesis (3 years); Organization: University of Teramo
+
+2015 Candidate: Fabio Serra; Thesis Title: Autentificazione di oli di oliva mediante statistica multivariata; Type: Degree thesis (5 years); Organization: University of Teramo
+
+2017 Candidate: David broyles; Thesis Title: Development of low-cost nucleic acid sensing technologies for clinical applications; Type: External examiner of PhD Dissertation; Organization: University of Miami
+
+2018 Candidate: RACHELE ROCCHI; Thesis Title: Quality, process and traceability of saffron by means of multivariate analysis; Type: PhD; Organization: University of Teramo
+
+2019 Candidate: SARA PALMIERI; Thesis Title: Identification of Cannabis sativa L.(hemp) Retailers by Means of Multivariate Analysis of Cannabinoids; Type: PhD; Organization: University of Teramo
+
+2019 Candidate: Sara Gaggiotti; Thesis Title: Piezoelectric hairpin DNA gas sensors: In silico prediction and experimental proofs; Type: PhD; Organization: University of Teramo
+
+2020 Candidate: Alessio di battista; Thesis Title: Comportamento elettrochimico di peptidi disegnati computazionalmente; Type: Degree thesis (3 years); Organization: University of Teramo.
+
+
+# PUBBLICATION SUM_STAT
+
+```{r include=FALSE}
+library(bibliometrix)
+```
+
+
+```{r bib_a, echo=TRUE}
+M <- convert2df(file = "MMCVscopus.bib" , dbsource = "scopus", format = "bibtex")
+results <- biblioAnalysis(M, sep = ";")
+S <- summary(object = results, k = 10, pause = FALSE)
+plot(x = results, k = 10, pause = FALSE)
+
+```
+
+# keyword co-occurrences network
+
+```{r bib_b, echo=TRUE}
+ID <- cocMatrix(M, Field = "ID", sep = ";")
+sort(Matrix::colSums(ID), decreasing = TRUE)[1:20]
+AB <- cocMatrix(M, Field = "AB", sep = " ")
+sort(Matrix::colSums(AB), decreasing = TRUE)[1:100]
+
+```
+
+#  Network Plot
+
+```{r bib_c, echo=TRUE}
+NetMatrix <- biblioNetwork(M, analysis = "co-occurrences", network = "keywords", sep = ";")
+
+net=networkPlot(NetMatrix, normalize="association", weighted=T, n = 30, Title = "Keyword Co-occurrences", type = "fruchterman", size=T,edgesize = 5,labelsize=0.7)
+
+```
+
+
+
+#	LIST OF PUBLICATIONS (Corresponding author(ca)) IN INTERNATIONAL PEER REVIEWED JOURNALS
+
+Mascini, M.(ca); Dikici, E.; Perez-Erviti, J. A.; Deo, S. K.; Compagnone, D.; Daunert, S., A new generation of sensing elements for sensors: Clamp peptides. Biosensors and Bioelectronics 2021,191, 113471. Corresponding author(ca): M. Mascini
+
+Oddi, S.; Carluccio, A.; Ciaramellano, F.; Mascini, M.; Bucci, R.; Maccarrone, M.; Robbe, D.; Dainese, E., Prediction of cryotolerance of equine spermatozoa using principal components analysis of sperm membrane fatty acid composition. Theriogenology 2021, 172, 88-94.
+
+Gaggiotti, S.; Mascini, M.(ca); Cichelli, A.; Del Carlo, M.; Compagnone, D., Hairpin DNA based piezoelectric E-nose. Exploring the performances of heptamer loops for the detection of volatile organic compounds. Chemosensors 2021 9 (5), 115. Corresponding author(ca): M. Mascini
+
+Gaggiotti, S.; Palmieri, S.; Della Pelle, F.; Sergi, M.; Cichelli, A.; Mascini, M.(ca); Compagnone, D., Piezoelectric peptide-hpDNA based electronic nose for the detection of terpenes; evaluation of the aroma profile in different Cannabis sativa L. (hemp) samples. Sensors and Actuators B: Chemical 2020, 308, 127697. Corresponding author(ca): M. Mascini
+
+Gaggiotti, S.; Della Pelle, F.; Mascini, M.; Cichelli, A.; Compagnone, D., Peptides, DNA and MIPs in Gas Sensing. From the Realization of the Sensors to Sample Analysis. Sensors 2020, 20, 4433.
+
+Gaggiotti, S.; Hurot, C.; Weerakkody, J. S.; Mathey, R.; Buhot, A.; Mascini, M.; Hou, Y.; Compagnone, D., Development of an optoelectronic nose based on surface plasmon resonance imaging with peptide and hairpin DNA for sensing volatile organic compounds. Sensors and Actuators B: Chemical 2020, 303, 127188.
+
+Rocchi, R.; Mascini, M.; Faberi, A.; Sergi, M.; Compagnone, D.; Di Martino, V.; Corradori, S.; Pittia, P., Comparison of IRMS, GC-MS and E-Nose data for the discrimination of saffron samples with different origin, process and age. Food Control 2019, 106, (106736), 1-9.
+
+Palmieri, S.; Mascini, M.(ca); Ricci, A.; Fanti, F.; Ottaviani, C.; Lo Sterzo, C.; Sergi, M., Identification of Cannabis sativa L. (hemp) Retailers by Means of Multivariate Analysis of Cannabinoids. Molecules 2019, 24, (19), 3602. Corresponding author(ca): M. Mascini
+
+Mascini, M.(ca); Gaggiotti, S.; Della Pelle, F.; Wang, J.; Pingarron, J. M.; Compagnone, D., Hairpin DNA-AuNPs as molecular binding elements for the detection of volatile organic compounds. Biosensors & Biolectronics 2019, 123, 124-130. Corresponding author(ca): M. Mascini
+
+Mascini, M.(ca); Dikici, E.; Robles Mañueco, M.; Perez-Erviti, J. A.; Deo, S. K.; Compagnone, D.; Wang, J.; Pingarrón, J. M.; Daunert, S., Computationally Designed Peptides for Zika Virus Detection: An Incremental Construction Approach. BIomolecules 2019, 9, (9), 498-519. Corresponding author(ca): M. Mascini
+
+Gaggiotti, S.; Mascini, M.; Pittia, P.; Della Pelle, F.; Compagnone, D., Headspace Volatile Evaluation of Carrot Samples—Comparison of GC/MS and AuNPs-hpDNA-Based E-Nose. Foods 2019, 8, (8), 293-303.
+
+Rocchi, R.; Mascini, M.; Sergi, M.; Compagnone, D.; Mastrocola, D.; Pittia, P., Crocins pattern in saffron detected by UHPLC-MS/MS as marker of quality, process and traceability. Food Chemistry 2018, 264, 241–249.
+
+Mascini, M.(ca); Gaggiotti, S.; Della Pelle, F.; Di Natale, C.; Qakala, S.; Iwuoha, E.; Pittia, P.; Compagnone, D., Peptide Modified ZnO Nanoparticles as Gas Sensors Array for Volatile Organic Compounds (VOCs). Frontiers in Chemistry 2018, 6:105, 1-9. Corresponding author(ca): M. Mascini
+
+Faberi, A.; Compagnone, D.; Fuselli, F.; La Mantia, A.; Mascini, M.; Montesano, C.; Rocchi, R.; Sergi, M., Italian Cheeses Discrimination by Means of δ13C and δ15N Isotopic Ratio Mass Spectrometry. Food Analytical Methods 2018, 11, (5), 1467–1475.
+
+Della Pelle, F.; Scroccarello, A.; Sergi, M.; Mascini, M.; Del Carlo, M.; Compagnone, D., Simple and rapid silver nanoparticles based antioxidant capacity assay: reactivity study for phenolic compounds. Food Chemistry 2018, 256, 342–349.
+
+Mascini, M.(ca); Pizzoni, D.; Perez, G.; Chiarappa, E.; Di Natale, C.; Pittia, P.; Compagnone, D., Tailoring gas sensor arrays via the design of short peptides sequences as binding elements. Biosensors & Biolectronics 2017, 93, 161–169. Corresponding author(ca): M. Mascini
+
+Mascini, M.(ca); Montesano, C.; Perez, G.; Wang, J.; Compagnone, D.; Sergi, M., Selective solid phase extraction of JWH synthetic cannabinoids by using computationally designed peptides. Talanta 2017, 167, 126–133. Corresponding author(ca): M. Mascini
+
+Esteban-Fernandez de Avila, B.; Zhao, M.; Campuzano, S.; Ricci, F.; Pingarron, J. M.; Mascini, M.(ca); Wang, J., Rapid Micromotor-Based Naked-Eye Immunoassay Talanta 2017, 167, 651–657.v Corresponding author(ca): M. Mascini
+
+Baroccio, F.; Barilaro, N.; Tolomei, P.; Mascini, M.(ca), Classification of Biostimulants Origin Using Amino Acids Composition of Hydrolyzed Proteins. Journal of Horticultural Science and Research 2017, 1, (2), 30-35. Corresponding author(ca): M. Mascini
+
+Perez Quintana, G.; Salomon, L. A.; Montero-Cabrera, L. A.; Garcia de la Vega, J. M.; Mascini, M., Integrating sampling techniques and inverse virtual screening: Towards the discovery of artificial peptide-based receptors for small ligands. Molecular Diversity 2016, 20, (2), 421–438.
+
+Foguel, M. V.; Pilon dos Santos, G.; Pupim Ferreira, A. A.; Magnani, M.; Mascini, M.; Skladal, P.; Benedetti, A. V.; Yamanaka, H., Comparison of gold CD-R types as electrochemical device and as platform for biosensors. Journal of the Brazilian Chemical Society 2016, 27, (4), 650-662.
+
+Pizzoni, D.; Mascini, M.(ca); Perez, G.; Di Natale, C.; Compagnone, D., Virtual Screening Peptide Selection for a Peptide Based Gas Sensors Array. Sensors, Lecture Notes in Electrical Engineering 2015, 319, (16), 5. Corresponding author(ca): M. Mascini
+
+Lanzone, V.; Sergi, M.; Mascini, M.(ca); Scarpone, R.; Della Pelle, F.; Del Carlo, M.; Scortichini, G.; Compagnone, D., Solid-Phase Extraction of Pesticides by Using Bioinspired Peptide Receptors. Journal of Chemistry 2015, Article ID 905701, 7. Corresponding author(ca): M. Mascini
+
+Pizzoni, D.; Mascini, M.(ca); Lanzone, V.; Del Carlo, M.; Di Natale, C.; Compagnone, D., Selection of peptide ligands for piezoelectric peptide based gas sensors arrays using a virtual screening approach. Biosensors & Biolectronics 2014, 52, 247–254. Corresponding author(ca): M. Mascini
+
+Pilon dos Santos, G.; Ferreira da Silva, B.; Garrido Santesso, S. M.; Mascini, M.; Yamanaka, H., Design, synthesis and characterization of a hexapeptide bio-inspired by acetylcholinesterase and its interaction with pesticide dichlorvos. Analyst 2014, 139, (1), 273-279.
+
+Montesano, C.; Sergi, M.; Perez, G.; Curini, R.; Compagnone, D.; Mascini, M.(ca), Bio-inspired SPE sorbent material for cocaine. A cross reactivity study. Talanta 2014, 130, 382–387. Corresponding author(ca): M. Mascini
+
+Faberi, A.; Marianella, R. M.; Fuselli, F.; La Mantia, A.; Ciardiello, F.; Montesano, C.; Mascini, M.; Sergi, M.; Compagnone, D., Fatty acid composition and delta(13) C of bulk and individual fatty acids as marker for authenticating Italian PDO/PGI extra virgin olive oils by means of isotopic ratio mass spectrometry. Journal of mass spectrometry : JMS 2014, 49, (9), 840-849. 
+
+Del Carlo, M.; Fusella, G.; Pepe, A.; Sergi, M.; Di Martino, M.; Mascini, M.; Martino, G.; A., C.; Di Natale, C.; Compagnone, D., Novel oligopeptides based e-nose for food quality control: application to extravirgin olive oil samples. Quality Assurance and Safety of Crops & Foods 2014, 6, (3), 309-317.
+
+Perez, G.; Mascini, M.(ca); Sergi, M.; Del Carlo, M.; Curini, R.; Montero-Cabrera, A.; Compagnone, D., Peptides binding cocaine: a strategy to design biomimetic receptors. Journal of Proteomics and Bioinformatics 2013, 6, (1), 15-22. Corresponding author(ca): M. Mascini
+
+Perez, G.; Mascini, M.(ca); Lanzone, V.; Sergi, M.; Del Carlo, M.; Esposito, M.; Compagnone, D., Peptides Trapping Dioxins A Docking-Based Inverse Screening Approach. Journal of Chemistry 2013, 2013, Article ID 491827, 8 pages. Corresponding author(ca): M. Mascini
+
+Mascini, M.(ca); Montesano, C.; Sergi, M.; Perez, G.; Curini, R.; Compagnone, D., Peptides trapping cocaine: docking simulation and experimental screening by solid phase extraction followed by liquid chromatography mass spectrometry in plasma samples. Analytica Chimica Acta 2013, 772, 40– 46. Corresponding author(ca): M. Mascini
+
+Narcisi, V.; Mascini, M.(ca); Perez, G.; Del Carlo, M.; Tiscar, P. G.; Yamanaka, H.; Compagnone, D., Electrochemical genosensors for the detection of Bonamia parasite. Selection of single strand-DNA (ssDNA) probes by simulation of the secondary structure folding. Talanta 2011, 85, 1927– 1932. Corresponding author(ca): M. Mascini
+
+Mascini, M.(ca); Perez, G.; Montero-Cabrera, L. A.; Gonzalez, S.; Yamanaka, H.; Del Carlo, M.; Compagnone, D., Multiple minima hypersurfaces (MMH) procedures for biomimetic ligands screening. Sensors and Microsystems Lecture Notes in Electrical Engineering 2011, 91, (65), 403-407. Corresponding author(ca): M. Mascini
+
+Del Carlo, M.; Pepe, A.; Della Pelle, F.; Mascini, M.; Compagnone, D.; Amine, A.; Kadi, A.; Amraoui Bendriss, N.; Fusella, G. C., An Amperometric Sensor for the Selective Determination of Ortho-Diphenols in Olive Oil. Sensors and Microsystems: Lecture Notes in Electrical Engineering 2011, 91, 361-365.
+
+Bini, A.; Mascini, M.(ca); Mascini, M.; Turner, A. P. F., Selection of thrombin-binding aptamers by using computational approach for aptasensor application. Biosensors and Bioelectronics 2011, 26 4411– 4416 Corresponding author(ca): M. Mascini
+
+Del Carlo, M.; Pepe, A.; Sergi, M.; Mascini, M.; Tarentini, A.; Compagnone, D., Detection of coumaphos in honey using a screening method based on an electrochemical acetylcholinesterase bioassay Talanta 2010, 81, 76–81.
+
+Mascini, M.(ca); Martinelli, E.; Mazzone, E.; Monti, D.; Paolesse, P.; Compagnone, D.; D’Amico, A.; Di Natale, C., Characterization of aminoacids monolayers as chemical sensors Sensors and Microsystems: Proceedings of the 13th Italian Conference 2009, 113-118. Corresponding author(ca): M. Mascini
+
+Del Carlo, M.; Di Marcello, M.; Mascini, M.; Sergi, M.; Compagnone, D.; Pepe, A., DNA electrochemical biosensors for DNA-PAH adduct detection. Sensors and Microsystems: Proceedings of the 13th Italian Conference 2009, 37-41.
+
+Mascini, M.(ca); Sergi, M.; Monti, D.; Del Carlo, M.; Compagnone, D., Oligopeptides as mimic of acetylcholinesterase. from the rational design to the application in solid phase extraction for pesticides. Analytical Chemistry 2008, 80, (23), 9150-9156. Corresponding author(ca): M. Mascini
+
+Mascini, M.(ca); Martinelli, E.; Santonico, M.; Pennazza, G.; Monti, D.; Paolesse, P.; D'Amico, A.; Di Natale, C.; COMPAGNONE, D., Gas Sensitivity of Amino Acids Monolayers. In The 7th IEEE Conference on Sensors, 2008. Corresponding author(ca): M. Mascini
+
+Mascini, M.(ca); Martinelli, E.; Mazzone, E.; Monti, D.; Paolesse, P.; Compagnone, D.; Damico, A.; Di Natale, C., Characterization of aminoacids monolayers as chemical sensors. In Sensors and Microsystems: Proceedings of the 15th Italian Conference, World Scientific: 2008. Corresponding author(ca): M. Mascini
+
+Mascini, M.(ca); Guilbault, G. G.; Monk, I. R.; Hill, C.; Del Carlo, M.; Compagnone, D., Screening of rationally-designed oligopeptides for Listeria monocytogenes detection by means of high density colorimetric microarray. Microchimica Acta 2008, 163, 227–235. Corresponding author(ca): M. Mascini
+
+Mascini, M.(ca); Del Carlo, M.; Sergi, M.; Guilbault, G. G.; Compagnone, D., Screening Of Biomimetic Receptors By Means Of High-Density Colorimetric Microarray Sensors and Microsystems: Proceedings of the 12th Italian Conference 2008. Corresponding author(ca): M. Mascini
+
+Del Carlo, M.; Mascini, M.; Compagnone, D., User Friendly Electrochemical Hand-Held Device For Durum Wheat Safety Sensors and Microsystems: Proceedings of the 11th Italian Conference 2008, 198-202. 
+
+Del Carlo, M.; Di Marcello, M.; Perugini, M.; Ponzielli, V.; Sergi, M.; Mascini, M.; Compagnone, D., Electrochemical DNA biosensor for polyciclic aromatic hydrocarbon detection Microchimica Acta 2008, 163, 163–169 
+
+Del Carlo, M.; Di Marcello, M.; Mascini, M.; Compagnone, D., Graphite Electrochemical Sensors For The Evaluation Of PAHs-DNA Adducts. Sensors and Microsystems: Proceedings of the 12th Italian Conference 2008.
+
+Sergi, M.; Mascini, M.(ca); Del Carlo, M.; Lalli, L.; Alarcon, S. H.; Compagnone, D., Sviluppo di recettori biomimetici per la determinazione di pesticidi in matrici alimentari. Atti VI Congresso Nazionale di Chimica degli Alimenti 2007, 646-649. Corresponding author(ca): M. Mascini
+
+Mosca, F.; Dainese, E.; Compagnone, D.; Amaddeo, A.; Narcisi, V.; Calzetta, A.; Angelucci, C.; Mascini, M.; Barbaro, K.; Gioia, L.; Finoia, M. G.; Tiscar, P. G., Immune parameters and Heat Shock Proteins 70 kDa (HSPs 70) as quality markers in the mussel Mytilus galloprovincialis. Biol. Mar. Mediterr 2007, 14, (1), 171-174.
+
+Mascini, M.(ca); Papamichael, K.; Mevola, I.; Pravda, M.; Guilbault, G. G., Mini-review:Ghrelin detection using spiegelmer-capture molecules. Analytical Letters 2007, 40, 403–430. Corresponding author(ca): M. Mascini
+
+Mascini, M.(ca); Guilbault, G. G.; Lebrun, S. J.; Compagnone, D., Colorimetric microarray detection system for Ghrelin Using Aptamer-Technology. Analytical Letters 2007, 40, 1386–1399. Corresponding author(ca): M. Mascini
+
+Mascini, M.(ca); Del Carlo, M.; Compagnone, D., Sensori elettrochimici a DNA per la deterrninazione di Fusarium culmorum. Sicurezza Alimentare della filiera del grano duro 2007, 267-277. Corresponding author(ca): M. Mascini
+
+Mascini, M.(ca), Detection of Fusarium sp. Via electrochemical sensing. Comprehensive Analytical Chemistry 2007, 303-307. Corresponding author(ca): M. Mascini
+
+Del Carlo, M.; Ponzielli, V.; De Gregorio, M.; Mascini, M.; Di Marcello, M.; Visciano, P.; Perugini, M.; Amorena, M.; Compagnone, D., Biosensori elettrochimici a dna per la valutazione della tossicità di idrocarburi policiclici aromatici in campioni di mitilo. Atti VI Congresso Nazionale di Chimica degli Alimenti 2007, 599-604.
+
+Del Carlo, M.; Pepe, A.; Solfrizzo, M.; Longobardi, F.; Visconti, A.; La Cava, P.; Mascini, M.; Compagnone, D., Sensori elettrochimici per la determinazione di dichlorvos e pirimiphos-methyl in frumento duro. Sicurezza Alimentare della filiera del grano duro 2007, 171-188.
+
+Del Carlo, M.; Pepe, A.; Mascini, M.; Compagnone, D.; Ranieri, R.; Visconti, A., Electrochemical biosensor prototype for detecting ochratoxin A, dichlorvos, primiphos-methyl and DNA of Fusarium culmorum. Sicurezza Alimentare della filiera del grano duro 2007, 297-310.
+
+Compagnone, D.; Van Velzen, K.; Del Carlo, M.; Mascini, M.(ca); Visconti, A., Rapid detection of organophosphates, Ochratoxin A and Fusarium sp. in durum weath via screen printed based electrochemical sensors. Comprehensive Analytical Chemistry 2007, 49, 687-718. Corresponding author(ca): M. Mascini
+
+Mascini, M.(ca); Del Carlo, M.; Cozzani, I.; Tiscar, P. G.; Mpamhanga, C. P.; Chen, B.; Compagnone, D., Piezoelectric Sensors Based On Biomimetic Peptides For The Detection Of Heat Shock Proteins (Hsps) In Mussels. Analytical Letters 2006, 39, (8), 1627-1642. Corresponding author(ca): M. Mascini
+
+Del Carlo, M.; Pepe, A.; De Gregorio, M.; Mascini, M.; Marty, J. L.; Fournier, D.; Visconti, A.; Compagnone, D., An Electrochemical Bioassay for Dichlorvos Analysis in Durum Wheat Samples Journal of Food Protection 2006, 69, (6), 167-172.
+
+Mascini, M.(ca); Macagnano, A.; Scortichni, G.; Del Carlo, M.; Diletti, G.; D’Amico, A.; Di Natale, C.; Compagnone, D., Biomimetic sensors for dioxins detection in food samples Sensors and Actuators 2005, 111–112, 376–384. Corresponding author(ca): M. Mascini
+
+Mascini, M.(ca); Del Carlo, M.; Pepe, A.; De Gegorio, M.; Compagnone, D., Biomimetic Receptors For Pesticides: A Combination Of Computational And Experimental Sensors and Microsystems: Proceedings of the 10th Italian Conference 2005. Corresponding author(ca): M. Mascini
+
+Mascini, M.(ca); Del Carlo, M.; Minunni, M.; Chen, B.; Compagnone, D., Identification of mammalian species using genosensors Bioelectrochemistry 2005, 67, (2), 163-169. Corresponding author(ca): M. Mascini
+
+Del Carlo, M.; Pepe, A.; Mascini, M.; De Gregorio, M.; Visconti, A.; Compagnone, D., Determining pirymiphos-methyl in durum wheat samples using an achetylcholinesterase inhibition assay Analytical Bioanalytical Chemistry 2005, 2005, 1367-1372. Corresponding author(ca): M. Mascini
+
+Mascini, M.(ca); Macagnano, A.; Monti, D.; Del Carlo, M.; Paolesse, R.; Chen, B.; Warner, P.; D’Amico, A.; Di Natale, C.; Compagnone, D., Piezoelectric sensors for dioxins: a biomimetic approach Biosensors and Bioelectronics 2004, 20, 1203–1210. Corresponding author(ca): M. Mascini
+
+Mascini, M.(ca); Del Carlo, M.; Compagnone, D., Development of artificial oligopeptides as biomimetic receptors for carbamate and organophosphate pesticides using a computational approach. Sensors and Microsystems: Proceedings of the 9th Italian Conference 2004, 44-49. Corresponding author(ca): M. Mascini
+
+Mascini, M.(ca), Preliminary Studies of oligopeptide-based sensors for pesticides. SENSPOL: European Network on Sensors for Monitoring Water Pollution. Newsletter 2004, 2, 22-27. Corresponding author(ca): M. Mascini
+
+Del Carlo, M.; Mascini, M.; Pepe, A.; Diletti, G.; Compagnone, D., Screening of food samples for carbamate and organophosphate pesticides using an electrochemical bioassay Food Chemistry 2004, 84, 651-656.
+
+Mascini, M.(ca); Macagnano, A.; Monti, D.; Compagnone, D.; Paolesse, R.; Chen, B.; Warner, P.; D’Amico, A.; Di Natale, C.; Cozzani, I., Biomimetic traps for Dioxins. A Mixed Computational and Experimental Approach Sensors and Microsystems: Proceedings of the 8th Italian Conference 2003, 88-94. Corresponding author(ca): M. Mascini
+
+Mascini, M.(ca); Del Carlo, M.; Pepe, A.; Compagnone, D., Acetylcholinesterase inhibitors detection in food-chemically modified electrode (cme) vs biosensor performance. 1st International Symposium on Recent Advances in Food Analysis 2003. Corresponding author(ca): M. Mascini
+
+Mascini, M.(ca), A theoretical investigation on different polypeptides as possible dioxin receptors. Senspol: European network on sensors for monitoring water pollution 2003, 7, 7-14. Corresponding author(ca): M. Mascini
+
+Laschi, S.; Mascini, M.; Scortichini, G.; Fránek, M.; Mascini, M., Polychlorinated biphenyls(PCBs) detection in food samples using electrochemical immunosensor. Journal of Agricultural and Food Chemestry 2003, 51 1816-1822.
+
+Del Carlo, M.; Mascini, M.; Pepe, A.; Compagnone, D.; Mascini, M., Electrochemical bioassay for the investigation of chlorpyrifos methyl in vine samples. Journal of Agricultural and Food Chemestry 2002, 50, 7206-7210.
+
+Minunni, M.; Tombelli, S.; Pratesi, S.; Mascini, M.; Piatti, P.; Bogani, P.; Buiatti, M.; Mascini, M., A Piezoelectric Affinity Biosensor for Genetically Modified Organisms (GMOs) detection. Analytical Letters 2001, 34, (6), 825-840.
+
+Minunni, M.; Tombelli, S.; Mariotti, E.; Mascini, M.; Mascini, M., Biosensors as new analytical tool for Genetic Modified Organisms (GMO). Fresenius Journal of analytical chemistry 2001, 761, 589-593 
+
+Mascini, M.(ca), Computational chemistry for dioxin receptor. SENSPOL: European Network on Sensors for Monitoring Water Pollution. Newsletter N° 2 2001, 8-12. Corresponding author(ca): M. Mascini
+
+Minunni, M.; Mascini, M.; Cozzani, I.; Mascini, M., Screening Methodologies for Genetic Modified Organisms (GMOs) Analytical letters 2000 33, (15), 3093-3125 
+
+Motti, C.; Dainese, E.; Mascini, M.; Minunni, M.; De Santis, P.; Cozzani, I., The Use Of Biotechnology In Agriculture And The Methods For The Detection Of Genetically Modified Organisms (GMOs) In Food. Italian Journal of Biochemistry 2000, 49 (3/4), 52-56.
+
+Minunni, M.; Mascini, M.; Motti, C.; Dainese, E.; Di Matteo, A.; Chen, B.; Cozzani, I., Biosensors As A New Analytical Tool For Detection Of Genetically Modified Organisms. Italian Journal of Biochemistry 2000, 49, (3/4), 64-72 
+
+Mascini, M.(ca), Molecular Modelling Design of Artificial Receptors for the Detection of Dioxin in the Environment BIOSET: Biosensors for Environmental Technology Newsletter N° 7 2000, 13-15. Corresponding author(ca): M. Mascini
+
+Dainese, E.; Vachette, P.; Minafra, R.; Mascini, M.; Salvato, B.; Melloni, E.; Cozzani, I., Small Angle X-ray Scattering Investigation on the Ca2+-dependent Activation process in Calpain from human Erythrocytes Italian Biochemical Society Transactions (IBST) 2000, 15, 119.
+
+
+
+#	SCIENTIFIC MEETINGS
+
+
+
+1.	Gaggiotti, S.; Hurot, C.; Weerakkody, J.; Mathey, R.; Buhot, A.; Hou, Y.; Mascini, M.; Compagnone, D. In Surface Plasmon Resonance Imaging Based On Peptide And Hpdna For Sensing Volatile Organic Compounds, AISEM 2019. The XX edition of the National Conference on Sensors and Microsystems Napoli (Italy), 11-13 February, 2019; Napoli (Italy).
+
+2.	Rocchi, R.; Mascini, M.; Faberi, A.; Sergi, M.; Compagnone, D.; Mastrocola, D.; Corradori, S.; Pittia, P. In Quality, process and traceability of saffron by means of multivariate analysis (INVITED TALK), ASA-Statistics and the Assessment, Control and Scenarios of Risks. Applications to Food, Social and Health, Economic and Environmental Fields, Pescara (Italy), 12-14 September, 2018; Pescara (Italy).
+
+3.	Mascini, M.; Dikici, E.; Deo, S. D.; Compagnone, D.; Wang, J.; Pingarrón, J. M.; Daunert, S. In A label-free sensor array for the detection of Zika virus by using in silico-designed clamp peptide antibody mimetics, Biosensors 2018, 2018.
+
+4.	Compagnone, D.; Mascini, M.; Gaggiotti, S.; Della Pelle, F.; Wang, J. In Hairpin DNA-AuNPs as molecular binding elements for the detection of volatile organic compounds (INVITED TALK), Biosensors 2018, 2018.
+
+5.	Rocchi, R.; Pittia, P.; Sergi, M.; Mascini, M.; Compagnone, D. In Determination of crocins in saffron as marker of quality and traceability FOOD INTEGRITY, 2017.
+
+6.	Rocchi, R.; Faberi, A.; Pittia, P.; Sergi, M.; Mascini, M.; Compagnone, D. In Study of volatile pattern of saffron by SPME-GC-MS and Electronic Nose, 5th MS Food Day, Bologna Italy, 11 October 2017 to 13 October 2017, 2017; Bologna Italy.
+
+7.	Mascini, M.; Dikici, E.; Joda, H.; Deo, S. K.; Daunert, S. In Label free impedimetric immunosensor for the detection of whole flavivirus particles, NanoFlorida The 10th Annual Symposium Miami, 2017; Miami.
+
+8.	Mascini, M.; Dikici, E.; Deo, S. K.; Compagnone, D.; Wang, J.; Daunert, S. In Synthetic peptides for Zika virus detection: a virtual screening approach, NanoFlorida The 10th Annual Symposium Miami, 2017; Miami.
+
+9.	Mascini, M.; Pizzoni, D.; Perez, G.; Chiarappa, E.; Di Natale, C.; Pittia, P.; Compagnone, D. In Tailoring gas sensor arrays via the design of short peptides sequences as binding elements, Biosensors 2016, 2016.
+
+10.	Mascini, M.; Sergi, M.; Organtini, C.; Perez, G.; Curini, R.; Compagnone, D. In Selective solid phase extraction of synthetic cannabinoids by using computationally designed peptides, Convegno Bioanalitica, Italy, 2015; Italy.
+
+11.	Compagnone, D.; Capoferri, D.; Mascini, M.; Della Pelle, F.; Sergi, M.; Del Carlo, M.; Forzato, C.; Berti, F. In PEPTIDE BASED SENSING SYSTEMS FOR THE SELECTIVE DETECTION OF CHLOROGENIC ACID DERIVATIVES, XXV Congresso della Divisione di Chimica Analitica, Trieste Italy, 13-17 September 2015, 2015; SCI, Ed. Trieste Italy.
+
+12.	Pizzoni, D.; Mascini, M.; Perez, G.; Di Natale, C.; Compagnone, D. In VIRTUAL SCREENING PEPTIDE SELECTION FOR A PEPTIDE BASED GAS SENSORS ARRAY, Secondo Convegno Nazionale Sensori, Rome 19-21 Febbraio 2014, 2014; Rome 
+
+13.	Simeoni, M. C.; Sergi, M.; Montesano, C.; Mascini, M.; Compagnone, D.; Curini, R.; Sabatino, G. In BIOMIMETIC SORBENTS AS SPE STATIONARY PHASE FOR THE DETERMINATION OF CANNABINOIDS BY LC‐MS/MS, XXIV Congresso della Divisione di Chimica Analitica della Società Chimica Italiana SESTRI LEVANTE, Italy, 15-19 September 2013, 2013; SESTRI LEVANTE, Italy.
+
+14.	Sergi, M.; Montesano, C.; Mascini, M.; Compagnone, D.; Curini, R. In EXTRACTION STRATEGIES FOR THE DETERMINATION OF DRUGS OF ABUSE IN BIOLOGICAL MATRICES, XXIV Congresso della Divisione di Chimica Analitica della Società Chimica Italiana SESTRI LEVANTE, Italy, 15-19 September 2013, 2013; SESTRI LEVANTE, Italy.
+
+15.	Sergi, M.; Mascini, M.; Del Carlo, M.; Lanzone, V.; Pepe, A.; Compagnone, D. In Applicazione di sorbenti biomimetici per l’estrazione selettiva di residui chimici da matrici alimentari, VI Convegno nazionale dell'Associazione Ricercatori Nutrizione e Alimenti (ARNA), Teramo, Italy, 9-11 May 2013, 2013; Università di Teramo: Teramo, Italy.
+
+16.	Pizzoni, D.; Mascini, M.; Del Carlo, M.; Lanzone, V.; Di Natale, C.; Compagnone, D. In GOLD NANO‐PARTICLES‐PEPTIDE BASED GAS SENSORS ARRAY: COMPUTATIONAL STUDY AND PRACTICAL APPLICATIONS, XXIV Congresso della Divisione di Chimica Analitica della Società Chimica Italiana SESTRI LEVANTE, Italy, 15-19 September 2013, 2013; SESTRI LEVANTE, Italy.
+
+17.	Perez, G.; Salomon, L. A.; Mascini, M. In Desafios Estadísticos en la Construcción Incremental de Péptidos Biomiméticos, XXIII Encuentro de Estadísticos Cuba-Mexico, Havana, Cuba, 2013; Havana, Cuba.
+
+18.	Perez, G.; MASCINI, M.; MONTERO-CABRERA, A. In A Theoretical investigation on aminoacids composition of a possible 2,3,7,8 – tetrachloro dibenzo-p-dioxin receptor, V Simposio Internacional de Química SIQ, CUBA, 2013; Villas, U. C. M. A. d. L., Ed. CUBA.
+
+19.	Lanzone, V.; Mascini, M.; Sergi, M.; Del Carlo, M.; Della Pelle, F.; Pepe, A.; Compagnone, D. In COMPUTATIONAL DESIGN AND SELECTION OF BIOMIMETIC RECEPTORS FOR ORGANOPHOSPHATE PESTICIDES SELECTIVE EXTRACTION, XXIV Congresso della Divisione di Chimica Analitica della Società Chimica Italiana SESTRI LEVANTE, Italy, 15-19 September 2013, 2013; SESTRI LEVANTE, Italy.
+
+20.	Lanzone, V.; Compagnone, D.; Sergi, M.; Mascini, M.; Esposito, M.; Corrado, F. In Sviluppo di recettori biomimetici per diossine: dallo studio computazionale all’applicazione nell’estrazione in fase solida (SPE), Chimica, Innovazione e.. Chieti, Italy, 14 May 2013, 2013; Università “G. d’Annunzio” Chieti: Chieti, Italy.
+
+21.	Faberi, A.; Fuselli, F.; Marianella, R. M.; Sergi, M.; Mascini, M. In δ13C vs Fatty Acid Composition of Bulk and Individual Fatty Acids as Marker for Authenticating Italian PDO/PGI Extra Virgin Olive Oils, 3rd MS Food Day, Trento, October 9-11, 2013; Trento.
+
+22.	Sergi, M.; Montesano, C.; Mascini, M.; Curini, R.; Compagnone, D. In Biomimic ligand for the SPE extraction of cocaine from plasma, The International Symposium on Extraction Technologies (ExTech), University of Messina, at the School of Science in September 24-26, 2012. , 2012; University of Messina, at the School of Science in September 24-26, 2012. .
+
+23.	Perez, G.; Montero-Cabrera, L. A.; Mascini, M. In Computational method for identifying possible biomimetic receptors for cocaine, V International Symposium On Biochemistry And Molecular Biology, Havana. Cuba, October 9 - 12, 2012; Havana. Cuba.
+
+24.	Lanzone, V.; Compagnone, D.; Sergi, M.; Mascini, M.; Del Carlo, M. In SELECTION OF BIOMIMETIC RECEPTORS FOR DIOXINS: FROM THE RATIONAL DESIGN TO THE APPLICATION IN SOLID-PHASE EXTRACTION, Congresso Nazionale di Chimica Analitica 2012.
+
+25.	Pilon dos Santos, G.; Fusella, G. C.; Skladal, P.; Mascini, M.; Yamanaka, H.; Compagnone, D. In GOLD NANOPARTICLES LAYER ON GOLD CDTRODE: A PROMISING PLATFORM FOR AMPLIFIED ELECTROCHEMICAL DETECTION OF PESTICIDES, GS2011 - IV Workshop del Gruppo Sensori della Divisione di Chimica Analitica della Società Chimica Italiana, TERAMO Italy, 15-17 giugno 2011, 2011; TERAMO Italy.
+
+26.	Pilon dos Santos, G.; Foguel, M. V.; Garbellini, G. S.; Pupim Ferreira, A. A.; Skladal, P.; Mascini, M.; Yamanaka, H. In Immobilization of Oligopeptides on Gold CDtrode for the Development of Biomimetic Sensor for Pesticides, 9th Spring Meeting of the International Society of Electrochemistry, Turku, Finland, 2011; Turku, Finland.
+
+27.	Perez Quintana, G. M.; Mascini, M.; Montero-Cabrera, L. A. In A COMPUTATIONAL APPROACH FOR RATIONAL SELECTION OF BIOMIMETIC RECEPTORS, SEADIM 8th Seminars of Advanced Studies on Molecular Design and Bioinformatics: Light and molecules CUBA, July 10 - 15, 2011, 2011; CUBA.
+
+28.	Esteva, A. M.; Piña, J. J.; Balbin, A. I.; Pérez, A. I.; Compagnone, D.; Mascini, M. In MINIATURASED ELECTROCHEMICAL SENSORS FOR THE DETERMINATION OF ANTIRETROVIRAL DRUG, workshop GS2011, Teramo, Italy, 2011; Teramo, Italy.
+
+29.	Mascini, M.; Yamanaka, H.; Fohlerova, Z.; Skladal, P. In Comparison of impedimetric and surface plasmon resonance sensors with biomimetic receptors for pesticides, 20TH ANNIVERSARY WORLD CONGRESS ON BIOSENSORS. BIOSENSORS 2010, Glasgow, UK, 26-28 May, 2010; Glasgow, UK.
+
+30.	Mascini, M.; Perez, G.; Narcisi, V.; Del Carlo, M.; Tiscar, P. G.; Yamanaka, H.; Compagnone, D. In Bioinformatics for genosensors development. A case-study for single strand-DNA probes selection, GRUPPO DIVISIONALE SENSORI III workshop GS2010, Università degli Studi di Firenze, Italy, 26 – 28 Ottobre, 2010; Università degli Studi di Firenze, Italy.
+
+31.	Mascini, M.; Perez, G.; Del Carlo, M.; Montero-Cabrera, A.; Amine, A.; Compagnone, D. In Molecular modeling for rationalizing biomimetic compounds selection: Applications in biosensors area, GRUPPO DIVISIONALE SENSORI III workshop GS2010, Università degli Studi di Firenze, 26 – 28 Ottobre, 2010; Università degli Studi di Firenze.
+
+32.	MASCINI, M.; PEREZ, G.; DEL CARLO, M.; CABRERA, L. A. M.; GONZALEZ, S.; YAMANAKA, H.; COMPAGNONE, D. In Multiple minima hypersurface (MMH) procedures for biomimetic ligands screening, THE 15th NATIONAL CONFERENCE ON SENSORS AND MICROSYSTEMS (AISEM), Messina, Italy, 2010; Messina, Italy.
+
+33.	Mascini, M.; Duran, I.; Del Carlo, M.; Esteva Guas, A. M.; Amine, A.; Compagnone, D. In Evaluation of different modified screen-printed electrodes for direct electrochemical determination of hydroxymethylfurfural (HMF), CONGRESS ON ANALYTICAL SCIENCES, Casablanca, Morocco 23-26 November, 2010; www.biocap.ma: Casablanca, Morocco 
+
+34.	Mascini, M.; Duran, I.; Del Carlo, M.; Esteva Guas, A. M.; Amine, A.; Compagnone, D. In Disposable electrochemical sensor for rapid determination of heavy metals in river sediments, CONGRESS ON ANALYTICAL SCIENCES, Casablanca, Morocco, 23-26 November, 2010; www.biocap.ma: Casablanca, Morocco.
+
+35.	Mascini, M.; Del Carlo, M.; Amine, A.; Piva, A.; Dimitri, G.; Compagnone, D. In Miniaturised Carbon Sensor for Direct Electrochemical Determination of Hydroxymethylfurfural (HMF), VIII CONGRESSO NAZIONALE DI CHIMICA DEGLI ALIMENTI “Qualità e Tipicità degli Alimenti Mediterranei: Alimentazione e Salute”, Villa Favorita, Marsala (TP) ITALY, 20-24 Settembre, 2010; Villa Favorita, Marsala (TP) ITALY.
+
+36.	Foguel, M. V.; Ferreira, A. A. P.; Benedetti, A. V.; Skladal, P.; Mascini, M.; Yamanaka, H. In Electrochemical Impedance Spectroscopy on Gold CDtrode Modified with p-ATP for Aflatoxin B1 Immunosensor Development. , 20TH ANNIVERSARY WORLD CONGRESS ON BIOSENSORS. BIOSENSORS 2010, Glasgow, UK, 26-28 May, 2010; Glasgow, UK.
+
+37.	Del Carlo, M.; Pepe, A.; Pelle, F. D.; Mascini, M.; Compagnone, D.; Amine, A.; Kadi, A.; Amraoui, N. B. In An amperometric sensor for the selective determination of orto-diphenols in olive oil, THE 15th NATIONAL CONFERENCE ON SENSORS AND MICROSYSTEMS (AISEM), Messina, Italy, 8 al 10 Febbraio, 2010; Messina, Italy.
+
+38.	Narcisi, V.; Mascini, M.; Di Falco, F.; Compagnone, D.; Tiscar, P. G. In New Approach For Bonamia Parasites Identification, 14TH INTERNATIONAL EAFP CONFERENCE, Prague, Czech Republic, 14th to 18th September, 2009; Prague, Czech Republic.
+
+39.	Mascini, M.; Sergi, M.; Ochoa, E.; Curini, R.; D’Ascenzo, G.; Romolo, F. S.; Compagnone, D.; Esteva Guas, A. M. In Molecular modeling of peroxide explosives-metal ions adducts for their determination by HPLC/ESI/MS/MS, 7TH SEMINARS OF ADVANCED STUDIES ON MOLECULAR DESIGN AND BIOINFORMATICS: MOLECULAR INTERACTIONS, Havana , Cuba, August 26 - 28, 2009; Havana , Cuba.
+
+40.	Mascini, M.; Narcisi, V.; Del Carlo, M.; Tiscar, P. G.; Amine, A.; Compagnone, D. In Label-free piezoelectric genosensors detecting Bonamia exitiosa in Ostrea edulis samples, 4TH INTERNATIONAL WORKSHOP ON “BIOSENSORS FOR FOOD SAFETY AND ENVIRONMENTAL MONITORING”, Tangier, Marocco, 1-3 October, 2009; Tangier, Marocco.
+
+41.	Mascini, M.; Del Carlo, M.; Sergi, M.; Compagnone, D. In Aminoacids And Oligopeptides As Useful Tools For Biosensing Purposes In Food Analysis (oral presentation), EUROANALYSIS 2009, Innsbruck, Austria, 6-10 September, 2009; Innsbruck, Austria.
+
+42.	Mascini, M.; Del Carlo, M.; Amine, A.; Piva, A.; Dimitri, G.; Compagnone, D. In Miniaturised Carbon Sensor For Direct Electrochemical Determination Of Hydroxymethylfurfural (HMF), GRUPPO DIVISIONALE SENSORI workshop GS 2009, Università di Modena e Reggio Emilia, 17 – 18 settembre, 2009; Università di Modena e Reggio Emilia.
+
+43.	Mascini, M. In Biomimetic sensors: a mix of computational and experimental approach. (Invited Lecture), INTERNATIONAL WORKSHOP ON BIOSENSORS, Araraquara, (IQ-UNESP), Brazil, 07-09 October, 2009; Araraquara, (IQ-UNESP), Brazil.
+
+44.	Del Carlo, M.; Mascini, M.; Sergi, M.; Compagnone, D. In Aminoacids And Oligopeptides As Useful Tools For Biosensing Purposes In Food Analysis (Oral presentation), GRUPPO DIVISIONALE SENSORI workshop GS2009, Università di Modena e Reggio Emilia, 17 – 18 settembre, 2009; Università di Modena e Reggio Emilia.
+
+45.	Compagnone, D.; Del Carlo, M.; Mascini, M.; Sergi, M. In Short peptide sequences as analytical tool in food analysis. , EUROANALYSIS 2009 Innsbruck, Austria, 6-10 September, 2009; Innsbruck, Austria.
+
+46.	Mascini, M.; Narcisi, V.; Del Carlo, M.; Compagnone, D.; Di Falco, F.; Tiscar, P. G. In DNA biosensor for Bonamia exitiosa detection in Ostrea edulis samples, XXI CONVEGNO NAZIONALE DELLA DIVISIONE DI CHIMICA ANALITICA DELLA SOCIETA' CHIMICA ITALIANA, Arcavacata di Rende, Italy, September, 2008; Arcavacata di Rende, Italy.
+
+47.	Mascini, M.; Martinelli, E.; Mazzone, E.; Monti, D.; Paolesse, R.; Compagnone, D.; D’Amico, A.; Di Natale, C. In Characterization of aminoacids monolayers as chemical sensors, THE 13th NATIONAL CONFERENCE ON SENSORS AND MICROSYSTEMS (AISEM), ROME, Italy, 2008; ROME, Italy.
+
+48.	Martinelli, E.; Mascini, M.; Santonico, M.; Pennazza, G.; Monti, D.; Paolesse, P.; D’Amico, A.; Compagnone, D.; Di Natale, C. In Gas Sensitivity of Amino Acids Monolayers, THE SEVENTH IEEE CONFERENCE ON SENSORS, Lecce, ITALY, 2008; Lecce, ITALY.
+
+49.	Del Carlo, M.; Di Marcello, M.; Mascini, M.; Sergi, M.; Compagnone, D.; Pepe, A. In DNA electrochemical biosensors for DNA-PAH adduct detection THE 13th NATIONAL CONFERENCE ON SENSORS AND MICROSYSTEMS (AISEM), ROME, Italy, 2008; ROME, Italy.
+
+50.	Bini, A.; Karim, K.; Mascini, M.; Mascini, M.; Turner, A. P. F. In A Study of Aptamer-Protein Interaction using a Computational Approach, BIOSENSORS 2008: THE TENTH WORLD CONGRESS ON BIOSENSORS, Shanghai, China, 2008; Shanghai, China.
+
+51.	Pepe, M.; Mascini, M.; Del Carlo, M.; Compagnone, D. In Utilizzo Di Elettrodi Stampati A Base Di Grafite Per Analisi Di Contaminanti Nel Miele, XX CONGRESSO NAZIONALE DI CHIMICA ANALITICA, Viterbo, Italy, 2007; Viterbo, Italy.
+
+52.	Mascini, M.; Guilbault, G. G.; Sergi, M.; Del Carlo, M.; Compagnone, D. In Biomimetic Sensors Design For Foodborne Pathogens Detection: A Mixed Computational And Experimental Approach, XX CONGRESSO NAZIONALE DI CHIMICA ANALITICA, Viterbo, Italy, 2007; Viterbo, Italy.
+
+53.	Mascini, M.; Guilbault, G. G.; Monk, I. R.; Hill, C.; Compagnone, D. In Screening of rationally-designed oligopeptides for Listeria monocytogenes detection by means of high density colorimetric microarray, BIOSENSORS WORKSHOP, Fez-Morocco, 2007; Fez-Morocco.
+
+54.	Mascini, M.; Del Carlo, M.; Sergi, M.; Guilbault, G. G.; Compagnone, D. In Screening Of Biomimetic Receptors By Means Of High-Density Colorimetric Microarray, THE 12th NATIONAL CONFERENCE ON SENSORS AND MICROSYSTEMS (AISEM), Napoli, Italy, 2007; Napoli, Italy, pp 281-282.
+
+55.	Del Carlo, M.; Mascini, M.; Sergi, M.; Compagnone, D. In Biosensori elettrochimici per la sicurezza alimentare basati su elettrodi stampati, VIII CISETA Milano, Italy, 2007; Milano, Italy.
+
+56.	Del Carlo, M.; Di Marcello, M.; Mascini, M.; Compagnone, D. In Graphite Electrochemical Sensors For The Evaluation Of PAHs-DNA Adducts, THE 12th NATIONAL CONFERENCE ON SENSORS AND MICROSYSTEMS (AISEM), Napoli, Italy, 2007; Napoli, Italy.
+
+57.	Compagnone, D.; Di Marcello, M.; Sergi, M.; Mascini, M.; Del Carlo, M. In Dna electrochemical biosensors for the evaluation of PAH’s, BIOSENSORS WORKSHOP, Fez-Morocco, 2007; Fez-Morocco.
+
+58.	Mascini, M.; Pravda, M.; Guilbault, G. G. In Biomimetic Sensors for Listeria Monocytogenes Detection ANALYTICAL RESEARCH FORUM 2006 Cork, Ireland, 17-19 July, 2006 Cork, Ireland.
+
+59.	Del Carlo, M.; Mascini, M.; Sergi, M.; Compagnone, D. In Utilizzo di biosensori elettrochimici a DNA per la valutazione del potenziale genotossico di alimenti contaminati con idrocarburi policiclici aromatici (IPA) XXII CONGRESSO NAZIONALE DELLA SOCIETA’ CHIMICA ITALIANA, Firenze, Italy, 2006 Firenze, Italy.
+
+60.	Sergi, M.; Mascini, M.; Del Carlo, M.; Lalli, L.; Alarcon, S. H.; Compagnone, D. In Sviluppo di recettori biomimetici per la determinazione di pesticidi in matrici alimentari, VI CONGRESSO NAZIONALE DI CHIMICA DEGLI ALIMENTI, Alba (CN), Italy, 7-10 Novembre, 2006; Alba (CN), Italy.
+
+61.	Mevola, I.; Mascini, M.; Pravda, M.; Guilbault, G. G. In Electrochemical Aptasensor for the Detection of Ghrelin, ANALYTICAL RESEARCH FORUM 2006 Cork, Ireland, 2006; Cork, Ireland.
+
+62.	MASCINI, M. M. M.; COMPAGNONE, M. D. C. D. In Studio di Sensori Elettrochimici a DNA per la Determinazione di Funghi Tossigeni, 2006.
+
+63.	Mascini, M.; Pepe, A.; Del Carlo, M.; Compagnone, D.; M., D. G. In Biomimetic Receptors For Pesticides: Comparison Of Computational And Experimental Data, 2006; World Scientific.
+
+64.	Mascini, M.; Del Carlo, M.; Sergi, M.; Compagnone, D. In Recettori biomimetici applicati all’estrazione in fase solida di pesticidi XXII CONGRESSO NAZIONALE DELLA SOCIETA’ CHIMICA ITALIANA, Firenze, Italy, 2006; Firenze, Italy.
+
+65.	Mascini, M.; Del Carlo, M.; Guilbault, G. G.; Compagnone, D. In Biomimetic Sensors for Listeria monocytogenes detection XXII CONGRESSO NAZIONALE DELLA SOCIETA’ CHIMICA ITALIANA, Firenze, Italy, 2006; Firenze, Italy.
+
+66.	Del Carlo, M.; Ponzielli, V.; De Gregorio, M.; Mascini, M.; Visciano, P.; Perugini, M.; Amorena, M.; Compagnone, D. In Biosensori elettrochimici a DNA per la valutazione della tossicità di idrocarburi policiclici aromatici in campioni di mitilo, VI CONGRESSO NAZIONALE DI CHIMICA DEGLI ALIMENTI, Alba (CN), Italy, 2006; Alba (CN), Italy.
+
+67.	Del Carlo, M.; Mascini, M.; Compagnone, D. In User Friendly Electrochemical Hand-Held Device For Durum Wheat Safety THE XIth NATIONAL CONFERENCE ON SENSORS AND MICROSYSTEMS (AISEM), Lecce, Italy, 2006; Lecce, Italy.
+
+68.	Del Carlo, M.; De Gregorio, M.; Pepe, A.; Mascini, M.; Compagnone, D. In Screening di pesticidi organofosforici in cereali destinati alla produzione di pasta fresca NUOVE TECNOLOGIE PER LA CONSERVAZIONE DI ALIMENTI ALTAMENTE DEPERIBILI Ariano Irpino, Italy, 2005 Ariano Irpino, Italy.
+
+69.	Mascini, M.; Mosca, F.; Narcisi, V.; Marozzi, S.; Tiscar, P. G.; Compagnone, D. In Modulazione di HSPs 70 in Mytilus galloprovincialis (link, 1819) in condizioni sperimentali di filiera commerciale e ottimizzazione di un biosensore piezoelettrico, XII CONVEGNO NAZIONALE S.I.P.I., Cesenatico (FC), Italy, 2005; Cesenatico (FC), Italy.
+
+70.	Mascini, M.; Del Carlo, M.; Pepe, A.; De Gregorio, M.; Compagnone, D. In Design and development of oligopeptides used as ligands for pesticides XIX CONGRESSO NAZIONALE DI CHIMICA ANALITICA, Cagliari, Italy, 2005; Cagliari, Italy.
+
+71.	Mascini, M.; Del Carlo, M.; Pepe, A.; Compagnone, D. In Biomimetic Receptors For Pesticides: A Combination Of Computational And Experimental, THE Xth NATIONAL CONFERENCE ON SENSORS AND MICROSYSTEMS (AISEM), Firenze, Italy, 2005; Firenze, Italy.
+
+72.	Mascini, M.; Del Carlo, M.; Monti, D.; Pepe, A.; De Gregorio, M.; Compagnone, D. In Biomimetic Receptors For Pesticides V MEDITERRANEAN BASIN CONFERENCE ON ANALYTICAL CHEMISTRY, Silvi Marina, Italy, 2005; Silvi Marina, Italy.
+
+73.	Mascini, M.; Del Carlo, M.; Cozzani, I.; Catasta, S.; Compagnone, D. In Piezoelectric Sensors Based On Biomimetic Peptides For The Identification Of Heat Shock Proteins (Hsps) In Mytilus Edulis, SECOND INTERNATIONAL WORKSHOP ON BIOSENSORS FOR FOOD SAFETY AND ENVIRONMENTAL MONITORING, Agadir, Marocco, 2005; Agadir, Marocco.
+
+74.	Mascini, M.; Del Carlo, M.; Compagnone, D. In Biomimetic Oligopeptides As Analytical Tool In Food Analysis 2ND INTERNATIONAL SYMPOSIUM ON RECENT ADVANCES IN FOOD ANALYSIS, Prague, Czech Republic, 2005; Prague, Czech Republic.
+
+75.	Mascini, M. In DNA Biosensors for Environmental and food Monitoring 5TH NIPPN TECHNOCLUSTER TECHNICAL SEMINAR THE STATE AND FUTURE OF BIONICS APPLICATIONS BIOSENSOR AND BIOCHIP USED IN DIAGNOSTICS/PROTEIN ANALYSIS(Invited Lecture), Tokyo, Japan, 2005; Tokyo, Japan.
+
+76.	Mascini, M. In DNA Biosensors for Environmental Monitoring, INTERNATIONAL SYMPOSIUM ON EMERGING RAPID ASSAY TECHNOLOGIES(Invited Lecture), Taipei, Taiwan, 2005; Taipei, Taiwan.
+
+77.	Del Carlo, M.; Sacchetti, G.; Mascini, M.; Di Mattia, C.; Cerretani, L.; Lercker, G.; Mastrocola, D.; Compagnone, D. In Evaluation of an electrochemical approach to assess the antioxidant activity of phenols extracted from olive oil, XIX CONGRESSO NAZIONALE DI CHIMICA ANALITICA, Cagliari, Italy, 2005; Cagliari, Italy.
+
+78.	Del Carlo, M.; Pezzi, P.; Formigoni, A.; Mascini, M.; Compagnone, D. In Rapid Electrochemical Determination Of Lactoperoxidase In Raw Milk, V MEDITERRANEAN BASIN CONFERENCE ON ANALYTICAL CHEMISTRY, Silvi Marina, Italy, 2005; Silvi Marina, Italy.
+
+79.	Del Carlo, M.; Mascini, M.; Compagnone, D.; Cichelli, A.; Carrasco-Pancorbo, A.; Cerretani, L.; Lercker, G. In Evaluation Of The Antioxidant Activity Of Some Olive Oil Polyphenols By Means Of An Electrochemical Method, V MEDITERRANEAN BASIN CONFERENCE ON ANALYTICAL CHEMISTRY, Silvi Marina, Italy, 2005; Silvi Marina, Italy.
+
+80.	De Gregorio, M.; Del Carlo, M.; Pepe, A.; Mascini, M.; Compagnone, D. In Sensori elettrochimici per il controllo di qualità degli alimenti, NUOVE TECNOLOGIE PER LA CONSERVAZIONE DI ALIMENTI ALTAMENTE DEPERIBILI Ariano Irpino, Italy, 2005; Ariano Irpino, Italy.
+
+81.	Compagnone, D.; Mascini, M.; Pepe, A.; De Gregorio, M.; Del Carlo, M. In Acetylcholinesterase inhibitors detection in food samples 8th International symposium in KINETICS IN ANALYTICAL CHEMISTRY, Rome, Italy, 2004 Rome, Italy.
+
+82.	Zezza, F.; Pascale, M.; Mulè, G.; Visconti, A.; Mascini, M.; Compagnone, D. In Electrochemical and Surface Plasmon Resonance-based DNA sensors for the identification of Fusarium culmorum, a fungal pathogen of cereals, BIOSENSORS 2004, Granada, Spain, 2004; Granada, Spain.
+
+83.	MASCINI, M. M. M.; MACAGNANO, A.; MONTI, D.; COMPAGNONE, D.; PAOLESSE, R.; CHEN, B.; WARNER, P.; DAMICO, A.; NATALE, C. D.; COZZANI; I. In Biomimetic traps for Dioxins. A Mixed Computational and Experimental Approach, 2004; pp 88-94.
+
+84.	Mascini, M.; Scortichini, G.; Macagnano, A.; Del Carlo, M.; D’Amico, A.; Di Natale, C.; Compagnone, D. In Biomimetic sensors for dioxins detection in food samples, EUROSENSORS XVIII, Rome, Italy, 2004; Rome, Italy.
+
+85.	Mascini, M.; Scortichini, G.; Del Carlo, M.; Compagnone, D. In Biomimetic receptors for dioxins in animal origin food samples AGROFOOD BIOANALYSIS I, Alghero, Italy, 2004; Alghero, Italy.
+
+86.	Mascini, M.; Del Carlo, M.; Compagnone, D.; Visconti, A. In Genosensors For Fungal Contaminants Of Cereals THE 6TH WORKSHOP ON BIOSENSORS AND BIOANALYTICAL µ-TECHNIQUES IN ENVIRONMENTAL AND CLINICAL ANALYSIS Rome, Italy, 2004; Rome, Italy.
+
+87.	Mascini, M.; Del Carlo, M.; Compagnone, D.; Tozzi, C.; Giraudi, G. In Biomimetic Receptors For Food Contaminants XVIII CONGRESSO NAZIONALE DI CHIMICA ANALITICA, Parma, Italy, 2004; Parma, Italy.
+
+88.	Mascini, M.; Del Carlo, M.; Compagnone, D. In Biomimetic Receptors For Acetylcholinesterase Inhibitors, THE 6TH WORKSHOP ON BIOSENSORS AND BIOANALYTICAL µ-TECHNIQUES IN ENVIRONMENTAL AND CLINICAL ANALYSIS Rome, Italy, 2004; Rome, Italy.
+
+89.	Mascini, M.; Del Carlo, M.; Compagnone, D. In Biomimetic sensors for food contaminants, BIOSENSORS 2004, Granada, Spain, 2004; Granada, Spain.
+
+90.	Mascini, M.; Del Carlo, M.; Compagnone, D. In Development of artificial oligopeptides as biomimetic receptors for carbamate and organophosphate pesticides using a computational approach, THE IXth NATIONAL CONFERENCE ON SENSORS AND MICROSYSTEMS (AISEM), Ferrara, Italy, 2004; World Scientific: Ferrara, Italy, pp 44-49.
+
+91.	Del Carlo, M.; Mascini, M.; Pepe, A.; De Gregorio, M.; Visconti, A.; Compagnone, D. In Bioanalytical Strategies For Durum Wheat Products Control, THE 6TH WORKSHOP ON BIOSENSORS AND BIOANALYTICAL µ-TECHNIQUES IN ENVIRONMENTAL AND CLINICAL ANALYSIS, Rome, Italy, 2004; Rome, Italy.
+
+92.	Del Carlo, M.; Mascini, M.; Pepe, A.; De Gregorio, M.; Visconti, A.; Compagnone, D. In An Electrochemical Biosensor For The Detection Of Pesticides In Durum Wheat Products XVIII CONGRESSO NAZIONALE DI CHIMICA ANALITICA, Parma, Italy, 2004; Parma, Italy.
+
+93.	Del Carlo, M.; Mascini, M.; Pepe, A.; De Gregorio, M.; Visconti, A.; Compagnone, D. In Biosensing approaches for pesticide monitoring in durum wheat products BIOSENSORS 2004, Granada, Spain, 2004; Granada, Spain.
+
+94.	Del Carlo, M.; Mascini, M.; Compagnone, D. In Biomimetic sensors for food contaminants, 8th International symposium in KINETICS IN ANALYTICAL CHEMISTRY, Rome, Italy, 2004; Rome, Italy.
+
+95.	Del Carlo, M.; Pepe, A.; Mascini, M.; Compagnone, D. In Acetylcholinesterase inhibitors detection in food-chemically modified electrode (cme) vs biosensor performance, 1st INTERNATIONAL SYMPOSIUM ON RECENT ADVANCES IN FOOD ANALYSIS, Prague, 2003 Prague.
+
+96.	Mascini, M.; Macagnano, A.; Monti, D.; Compagnone, D.; Paolesse, P.; Chen, B.; Warner, P.; D’Amico, A.; Di Natale, C.; Cozzani, I. In Biomimetic traps for Dioxins. A Mixed Computational and Experimental Approach, THE VIIIth NATIONAL CONFERENCE ON SENSORS AND MICROSYSTEMS (AISEM), Trento, Italy, 2003; World Scientific: Trento, Italy, pp 88-94.
+
+97.	Mascini, M.; Macagnano, A.; Monti, D.; Compagnone, D.; Chen, B.; Warner, P. In Electronic nose for Dioxins: a biomimetic approach SYNTHETIC RECEPTORS 2003, FIRST WORLD CONGRESS ON SYNTHETIC RECEPTORS, Lisbon, Portugal, 2003; Lisbon, Portugal.
+
+98.	Mascini, M.; Del Carlo, M.; Cozzani, I.; Compagnone, D. In Biosensori a DNA per l’identificazione di specie animali V CONGRESSO NAZIONALE DI CHIMICA DEGLI ALIMENTI Parma, Italy, 2003; Parma, Italy.
+
+99.	Mascini, M.; Del Carlo, M.; Compagnone, D. In A biomimetic appoch for the screening of dioxins, INTERNATIONAL WORKSOP BIOSENSORS FOR FOOD SAFETY AND ENVIRONMENTAL MONITORING, Marrakech, Marocco, 2003; Marrakech, Marocco.
+
+100.	Mascini, M.; Del Carlo, M.; Compagnone, D. In Biosensori a dna per la determinazione di fusarium culmorum, XVIII CONGRESSO NAZIONALE DI CHIMICA ANALITICA, SCI-2003, Torino, Italy, 2003; Torino, Italy.
+
+101.	Mascini, M.; Del Carlo, M.; Compagnone, D. In Trappole biomimetiche per diossine: un approccio computazionale e sperimentale per la costruzione di un sensore a gas, XVIII CONGRESSO NAZIONALE DI CHIMICA ANALITICA, SCI-2003, Torino, italy, 2003; Torino, italy.
+
+102.	Mascini, M.; Del Carlo, M.; Chen, B.; Minunni, M.; Compagnone, D. In Identification of mammalian species using genosensors, INTERNATIONAL WORKSHOP ON NEW TRENDS IN NUCLEIC ACID BASED BIOSENSORS, Firenze, Italy, 2003; Firenze, Italy.
+
+103.	Del Carlo, M.; Pepe, A.; Mascini, M.; Compagnone, D. In Electrochemical study on anthocians and cathechins in red wine IIIth SYMPOSIUM, IN VINO ANALITICA SCIENTIA, Lisbona Portogallo, 2003; Lisbona Portogallo.
+
+104.	Del Carlo, M.; Mascini, M.; Compagnone, D. In Valutazione elettrochimica della componente fenolica di uva e vini rossi XVIII CONGRESSO NAZIONALE DI CHIMICA ANALITICA, SCI-2003, Torino, Italy, 2003; Torino, Italy.
+
+105.	MASCINI, M. M. M.; COMPAGNONE, D.; CARLO, M. D.; CICHELLI, A.; PEPE, A. In Biosensore amperometrico a tirosinasi per la determinazione di composti fenolici in matrici alimentari, XVII CONGRESSO NAZIONALE DI CHIMICA ANALITICA, Viareggio (Lucca), Italy, 2002; Viareggio (Lucca), Italy.
+
+106.	Mascini, M.; Del Carlo, M.; Compagnone, D.; Pepe, A.; Chen, B.; Cozzani, I. In Biosensori per l'identificazione di specie animali mediante l'uso di oligonucleotidi, Biotecnologie agrarie ed alimentari, 2002; media edizioni.
+
+107.	Mascini, M.; Chen, B.; Mascini, M. In Biosensors for identification of mammalian species using oligonucleotide probes, BIOSENSORS 2002. THE SEVENTH WORD CONGRESS ON BIOSENSORS, Kyoto, Japan, 2002; Kyoto, Japan.
+
+108.	Del Carlo, M.; Mascini, M.; Pepe, A.; Scortichini, G.; Compagnone, D.; Cozzani, I. In Application of an enzymatic screening assay to animal origin food samples, IVth EUROPEAN PESTICIDE RESIDUES WORKSHOP, PESTICIDES IN FOOD AND DRINK, Rome, Italy, 2002; Rome, Italy.
+
+109.	Del Carlo, M.; Mascini, M.; Pepe, A.; Compagnone, D.; Diletti, G.; Mascini, M. In Determinazione di Mevinphos e Carbofuran in alimenti di origine animale, XVII CONGRESSO NAZIONALE DI CHIMICA ANALITICA Vareggio (Lucca), Italy, 2002; Vareggio (Lucca), Italy.
+
+110.	Del Carlo, M.; Mascini, M.; Calzarano, F.; Compagnone, D.; Pepe, A.; Cozzani, I.; Mascini, M. In Applicazioni di sensori elettrochimici per la determinazione del residuo di prodotti antiparassitari in viticoltura, ATTUALITÀ ED INTERDISCIPLINARITÀ DELLA CHIMICA ANALITICA, Roma, Italy, 2002; Roma, Italy.
+
+111.	Compagnone, D.; Del Carlo, M.; Mascini, M.; Pepe, A.; Cichelli, A. In Biosensore amperometrico a tirosinasi per la determinazione di composti fenolici in matrici alimentari XVII CONGRESSO NAZIONALE DI CHIMICA ANALITICA Viareggio (Lucca), Italy, 2002; Viareggio (Lucca), Italy.
+
+112.	MINUNNI, M.; TOMBELLI, S.; MASCINI, M.; MASCINI, S.; PRATESI, M. In BIOSENSORI PIEZOELETTRICI A BASE DI DNA PER L'ANALISI DI ORGANISMI GENETICAMENTE MODIFICATI(OGM), Metodologie Avanzate di Ricerca e Tematiche Strategiche per lo Sviluppo del Settore Agro-Alimentare, 2001; MEDIA EDIZIONI: pp 136-142.
+
+113.	MINUNNI, M.; MASCINI, M.; MARRAZZA, G.; MASCINI, M.; COZZANI, M. D. C. I. In Biosensori rapidi monouso per applicazioni relative alla sicurezza alimentare. Il caso della Encefalopatia Spongiforme Bovina (BSE), METODOLOGIE AVANZATE DI RICERCA E TEMATICHE STRATEGICHE PER LO SVILUPPO DEL SETTORE AGRO-ALIMENTARE, 2001; MEDIA EDIZIONI: pp 74-78.
+
+114.	MASCINI, M.; CALZARANO, F.; PALCHETTI, I.; DAINESE, E.; DEL CARLO, M.; COZZANI, P.; FLORI, I. In Acquisizioni preliminari sull'utilizzo di sensori elettrochimici nella determinazione del residuo di prodotti antiparassitari in viticoltura, METODOLOGIE AVANZATE DI RICERCA E TEMATICHE STRATEGICHE PER LO SVILUPPO DEL SETTORE AGRO-ALIMENTARE, 2001; MEDIA EDIZIONI: pp 143-148.
+
+115.	LASCHI, S.; MASCINI, M.; SCORTICHINI, G.; COZZANI, G.; DILETTI, I. In Immunosensore elettrochimico monouso per la determinazione di policlorobifenili: analisi su matrici di grasso animale, Metodologie Avanzate di Ricerca e Tematiche Strategiche per lo Sviluppo del Settore Agro-Alimentare, 2001; media edizioni: pp 154-162.
+
+116.	HERNANDEZ, S.; MASCINI, M.; RICCI, A.; COZZANI, I.; PALCHETTI, I. In Sensori elettrochimici ad acetilcolinesterasi: Analisi di screening rapido in campo tossicologico, METODOLOGIE AVANZATE DI RICERCA E TEMATICHE STRATEGICHE PER LO SVILUPPO DEL SETTORE AGRO-ALIMENTARE, 2001; media edizioni: pp 149-153.
+
+117.	Del Carlo, M.; Mascini, M.; Cozzani, I.; Compagnone, D.; Mascini, M. In Screening per la presenza di pesticidi anticolinesterasici in campioni alimentari mediante sensori monouso, XVI CONGRESSO NAZIONALE DI CHIMICA ANALITICA, Porto Novo, Ancona, Italy, 2001; Porto Novo, Ancona, Italy.
+
+
+
+
+
+
+
+

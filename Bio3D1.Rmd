@@ -1,0 +1,258 @@
+---
+title: "Bio3D1"
+author: "Marcello Mascini"
+date: "4/25/2022"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+
+
+```{r libraries, include=FALSE}
+library(bio3d)
+
+
+```
+
+## Taking 1 pdb from pdb data bank 
+
+```{r pdb, echo=TRUE}
+
+pdb <- read.pdb("7mem")
+
+pdb
+
+attributes(pdb)
+
+head(pdb$atom)
+
+```
+
+
+
+# PLOT b-factor of pdb
+
+
+```{r plot, echo=TRUE}
+
+plot.bio3d(pdb$atom$b[pdb$calpha], sse=pdb, typ="l", ylab="B-factor")
+
+```
+
+```{r pdb_chainC, echo=TRUE}
+
+pdbC <- read.pdb("7MEM_C.pdb")
+
+pdbC
+
+attributes(pdbC)
+
+head(pdbC$atom)
+
+```
+
+
+```{r plot_cC, echo=TRUE}
+
+plot.bio3d(pdbC$atom$b[pdbC$calpha], sse=pdbC, typ="l", ylab="B-factor")
+
+```
+
+# find binding site
+
+```{r bs, echo=TRUE}
+
+bs <- binding.site(pdb)
+
+#bsC <- binding.site(pdbC)
+
+```
+
+# residue names of identified binding site
+
+```{r bsP, echo=TRUE}
+print(bs$resnames)
+
+#print(bsC$resnames)
+
+```
+
+# Domain analysis
+
+```{r domAn, eval=FALSE, include=FALSE}
+
+gs  <- geostas(pdb)
+# Fit all frames to the 'first' domain
+domain.inds <- gs$inds[[1]]
+
+xyz <- pdbfit(pdb, inds=domain.inds)
+
+# write fitted coordinates
+write.pdb(pdb, xyz=xyz, chain=gs$atomgrps, file="pdb_fit-domain1.pdb")
+
+# plot geostas results
+plot(gs, contour=FALSE)
+
+```
+
+#Finding Available Sets of Similar Structures
+
+```{r finding, echo=TRUE}
+seq <- pdbseq(pdbC)
+blast <- blast.pdb(seq)
+
+```
+
+#plot blast results
+
+```{r blast, echo=TRUE}
+hits <- plot.blast(blast)
+
+head(blast$hit.tbl)
+
+```
+
+##check how many files are to save time downloading
+
+```{r check, echo=TRUE}
+
+#files <- get.pdb(blast$hit.tbl$subjectids[1:10,], split = TRUE)
+#pdbs <- pdbaln(files, exefile="C:/Users/marce/Documents/R/bioinformatics/muscle5.exe")
+
+```
+
+# Download some of the blast$hit.tbl PDB files
+
+```{r blastD, echo=TRUE}
+ids <- c("5K9O_F", "3ZTN_A", "3AL4_A", "3LZG_A", "4M4Y_A", "6WJ1_A")
+raw.files <- get.pdb(ids)
+
+```
+
+# Extract and align the chains we are interested in
+```{r extract, echo=TRUE}
+files <- pdbsplit(raw.files, ids)
+pdbs <- pdbaln(files, exefile="F:/Rmd_Project/muscle3.exe")
+
+```
+
+# Calculate sequence identity
+
+```{r calcIdent, echo=TRUE}
+pdbs$id <- substr(basename(pdbs$id),1,6)
+seqidentity(pdbs)
+
+```
+
+## Calculate RMSD
+
+```{r calc RMSD, echo=TRUE}
+
+rmsd(pdbs, fit=TRUE)
+
+```
+
+## Quick PCA
+
+```{r qPCA, echo=TRUE}
+pc <- pca(pdbfit(pdbs), rm.gaps=TRUE)
+plot(pc)
+```
+
+
+## Quick NMA of all structures
+```{r nma, echo=TRUE}
+modes <- nma(pdbs)
+plot(modes, pdbs, spread=TRUE)
+```
+
+###The Bio3D core.find() function implements an iterated superposition procedure, where residues displaying the largest positional differences are identified and excluded at each round. The function returns an ordered list of excluded residues, from which the user can select a subset of ’core’ residues upon which superposition can be based.
+
+```{r core, echo=TRUE}
+core <- core.find(pdbs)
+col=rep("black", length(core$volume))
+col[core$volume<2]="pink"; col[core$volume<1]="red"
+plot(core, col=col)
+
+```
+
+##The print.core() function also returns atom and xyz indices similar to those returned from the atom.select() function. Below we use these indices for core superposition and to write a quick PDB file for viewing in a molecular graphics program such as VMD .
+
+
+```{r printCore, echo=TRUE}
+
+core.inds <- print(core, vol=1.0)
+
+write.pdb(xyz=pdbs$xyz[1,core.inds$xyz], file="quick_core.pdb")
+
+
+```
+
+##The above command performs the actual superposition and stores the new coordinates in the matrix object xyz.
+
+```{r, supImp, echo=TRUE}
+xyz <- pdbfit( pdbs, core.inds )
+
+```
+
+
+```{r rmsd2, echo=TRUE}
+#RMSD is a standard measure of structural distance between coordinate sets. Here we examine the pairwise RMSD values and cluster our structures based on these values:
+
+rd <- rmsd(xyz)
+hist(rd, breaks=40, xlab="RMSD (Å)", main="Histogram of RMSD")
+
+#Histogram of RMSD among transducin structures
+
+# RMSD clustering
+hc.rd <- hclust(as.dist(rd))
+
+#The result can be illustrated as a simple dendrogram with the command:
+
+pdbs$id <- substr(basename(pdbs$id), 1, 6)
+hclustplot(hc.rd, k = 5)
+
+
+```
+
+
+##Normal mode analysis (NMA) of a single protein structure can be carried out by providing a PDB object to the function nma().
+
+```{r nma2, echo=TRUE}
+modes <- nma(pdb)
+
+print(modes)
+
+plot(modes, sse=pdb)
+
+
+```
+
+# Calculate modes with various force fields
+
+```{r varnma, eval=FALSE, include=FALSE}
+
+modes.a <- nma(pdb, ff="calpha")
+modes.b <- nma(pdb, ff="anm")
+modes.c <- nma(pdb, ff="pfanm")
+modes.d <- nma(pdb, ff="reach")
+modes.e <- nma(pdb, ff="sdenm")
+
+```
+
+# Root mean square inner product (RMSIP)
+
+```{r rmsip, eval=FALSE, include=FALSE}
+r <- rmsip(modes.a, modes.b)
+plot(r, xlab="ANM", ylab="C-alpha FF")
+
+```
+
+

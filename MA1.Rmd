@@ -1,0 +1,381 @@
+---
+title: "Multivariate analysis"
+author: "Marcello Mascini"
+date: "4/25/2022"
+output: html_document
+---
+# setup options chunk 
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+#activate libraries
+
+```{r txt_lib, echo=TRUE}
+
+library(psych)
+library(mdatools)
+library(outliers)
+library(ggpubr)
+library(PerformanceAnalytics)
+ library(Hmisc)
+library(pca3d)
+
+```
+
+#IMPORT DATA with header in first row CSV in the same folder of the project
+
+```{r GetData, echo=TRUE}
+
+X <- read.csv(file = "X.csv", header = TRUE)
+XY<- read.csv(file = "XY.csv", header = TRUE)
+Y <- read.csv(file = "Y.csv", header = TRUE)
+XN <- prep.autoscale(X, center = TRUE, scale = TRUE) 
+
+```
+
+
+#UNIVARIATE ANALYSIS
+
+```{r UA, echo=TRUE}
+
+str(X)
+
+summary(X)
+
+describe(X)
+
+boxplot(X)
+
+summary(XN)
+
+boxplot(XN)
+
+```
+
+#Outliers
+
+```{r outlier, echo=TRUE}
+head(outlier(X,  logical = TRUE))
+outX<- outlier(X,  logical = TRUE)
+write.csv(outX, file = "outX.csv")
+
+```
+
+
+#ANOVA univariate analysis
+
+```{r anova1, echo=TRUE}
+anX_multi<- aov(formula = cbind(V1, V2, V3, V4, V5, V6, V7, V8, V9, V10, V11) ~ C, data = XY)
+ summary(anX_multi)
+```
+
+
+
+```{r anova2, echo=TRUE}
+anV1X <- aov(V1 ~ C, data = XY)
+summary(anV1X)
+TukeyHSD(anV1X, which = "C")
+
+anV2X <- aov(V2 ~ C, data = XY)
+summary(anV2X)
+TukeyHSD(anV2X, which = "C")
+
+anV3X <- aov(V3 ~ C, data = XY)
+summary(anV3X)
+TukeyHSD(anV3X, which = "C")
+
+anV4X <- aov(V4 ~ C, data = XY)
+summary(anV4X)
+TukeyHSD(anV4X, which = "C")
+
+anV5X <- aov(V5 ~ C, data = XY)
+summary(anV5X)
+TukeyHSD(anV5X, which = "C")
+
+anV6X <- aov(V6 ~ C, data = XY)
+summary(anV6X)
+TukeyHSD(anV6X, which = "C")
+
+anV7X <- aov(V7 ~ C, data = XY)
+summary(anV7X)
+TukeyHSD(anV7X, which = "C")
+
+anV8X <- aov(V8 ~ C, data = XY)
+summary(anV8X)
+TukeyHSD(anV8X, which = "C")
+
+anV9X <- aov(V9 ~ C, data = XY)
+summary(anV9X)
+TukeyHSD(anV9X, which = "C")
+
+anV10X <- aov(V10 ~ C, data = XY)
+summary(anV10X)
+TukeyHSD(anV10X, which = "C")
+
+anV11X <- aov(V11 ~ C, data = XY)
+summary(anV11X)
+TukeyHSD(anV11X, which = "C")
+
+```
+ 
+```{r AnovaPlot, echo=TRUE}
+dat<- XY
+x <- which(names(dat) == "C") # name of grouping variable
+y <- which(names(dat) == "V1" # names of variables to test
+| names(dat) == "V2"
+| names(dat) == "V3"
+| names(dat) == "V4"
+| names(dat) == "V5"
+| names(dat) == "V6"
+| names(dat) == "V7"
+| names(dat) == "V8"
+| names(dat) == "V9"
+| names(dat) == "V10"
+| names(dat) == "V11")
+method1 <- "anova" # one of "anova" or "kruskal.test"
+method2 <- "t.test" # one of "wilcox.test" or "t.test"
+my_comparisons <- list(c("C1", "C2"), c("C1", "C3"), c("C1", "C4"), c("C2", "C3"), c("C2", "C4"), c("C3", "C4")) # comparisons for post-hoc tests
+
+
+for (i in y) {
+  for (j in x) {
+    p <- ggboxplot(dat,
+      x = colnames(dat[j]), y = colnames(dat[i]),
+      color = colnames(dat[j]),
+      legend = "none",
+      palette = "npg",
+      add = "jitter"
+    )
+    print(
+      p + stat_compare_means(aes(label = paste0(..method.., ", p-value = ", ..p.format..)),
+        method = method1, label.y = max(dat[, i], na.rm = TRUE)
+      )
+      + stat_compare_means(comparisons = my_comparisons, method = method2, label = "p.format") # remove if p-value of ANOVA or Kruskal-Wallis test >= alpha
+    )
+  }
+}
+
+
+```
+
+
+#BIVARIATE ANALYSIS
+
+```{r BiA, echo=TRUE}
+
+chart.Correlation(X, histogram=TRUE, pch=19)
+
+
+corX<- rcorr(as.matrix(X),type="pearson")
+corX
+
+ write.csv(corX$P, file = "corXp.csv")
+ write.csv(corX$r, file = "corXr.csv")
+ 
+```
+
+ 
+ 
+#MULTIVARIATE ANALYSIS with mdatools library
+#PCA
+
+```{r pca, echo=TRUE}
+
+XPCA = pca(X, 11, scale = TRUE, info = "X PCA model")
+summary(XPCA)
+
+```
+ 
+```{r pcaplot, echo=TRUE}
+plot(XPCA, show.labels = TRUE, cgroup = Y$C)
+plotBiplot(XPCA, show.labels = TRUE)
+c = categorize(XPCA)
+plotResiduals(XPCA, show.labels = TRUE, cgroup = c)
+
+
+XPCA1 = setDistanceLimits(XPCA, alpha = 0.01, gamma = 0.01)
+plotResiduals(XPCA1, show.labels = TRUE, cgroup = c)
+
+```
+
+#PCA 3D graph
+
+```{r pca3D, echo=TRUE}
+
+pcaX <- prcomp(X, scale.=TRUE)
+
+XC <- factor(Y[,3])
+
+pca3d(XPCA$loadings, show.labels = TRUE)
+pca3d(XPCA$calres$scores, show.labels = TRUE, group=XC)
+
+
+pca3d(pcaX, group=XC, show.labels = TRUE,  show.ellipses=TRUE, ellipse.ci=0.75, show.plane=FALSE)
+
+snapshotPCA3d(file="ellipses.png")
+
+```
+
+#Hierarchical agglomerative clustering (XN was normalized before using mdatools or excel)
+
+```{r hclust, echo=TRUE}
+disXN = dist(XN)
+hcXN = hclust(disXN)
+
+plot(hcXN)
+
+head(hcXN$order) 
+
+member = cutree(hcXN,4)
+table(member)
+HCA<- member
+head(HCA)
+write.csv(HCA, file = "HCA.csv")
+
+```
+
+
+#Work with mdatools for PLS-DA (plsda can normalize data with function "scale”)
+
+
+
+```{r plsda, echo=TRUE}
+
+daX = plsda(X, Y$A, ncomp.selcrit = "min", scale = TRUE, cv = 1)
+
+
+daX$ncomp
+
+plot(daX, ncomp = 11)
+
+summary(daX, ncomp = 11)
+
+summary(daX$calres, ncomp = 11)
+
+plot(daX$calres, ncomp = 11)
+
+plotMisclassified(daX$calres, ncomp = 11)
+
+summary(daX$cvres, ncomp = 11)
+
+plot(daX$cvres, ncomp = 11)
+
+plotMisclassified(daX$cvres, ncomp = 11)
+
+summary(daX, ncomp = 11) 
+
+ getConfusionMatrix(daX$res$cal, ncomp = 11)
+ getConfusionMatrix(daX$res$cv, ncomp = 11)
+
+par(mfrow = c(3, 2))
+plotMisclassified(daX, ncomp = 11)
+plotSensitivity(daX, ncomp = 11)
+plotSpecificity(daX, ncomp = 11)
+
+head(daX$res$cal$misclassified)
+head(daX$res$cal$y.pred)
+
+head(daX$res$cv$misclassified)
+head(daX$res$cv$y.pred)
+
+```
+
+
+
+
+#article CULITVAR nested k-fold cross-validation plsda
+
+libraries
+
+library(mdatools)
+library(psych)
+library(rms)
+library(ggpubr)
+library(PerformanceAnalytics)
+library(Hmisc)
+library(pca3d)
+library(rpart)
+library(e1071)
+
+#split dataset in training and test
+
+index <- 1:nrow(h144N)
+testindex <- sample(index, trunc(length(index)/3))
+testset1<- h144N[testindex,]
+trainset1<- h144N[-testindex,]
+index <- 1:nrow(h144N)
+testindex <- sample(index, trunc(length(index)/3))
+testset2<- h144N[testindex,]
+trainset2<- h144N[-testindex,]
+index <- 1:nrow(h144N)
+testindex <- sample(index, trunc(length(index)/3))
+testset3<- h144N[testindex,]
+trainset3<- h144N[-testindex,]
+index <- 1:nrow(h144N)
+testindex <- sample(index, trunc(length(index)/3))
+testset4<- h144N[testindex,]
+trainset4<- h144N[-testindex,]
+index <- 1:nrow(h144N)
+testindex <- sample(index, trunc(length(index)/3))
+testset5<- h144N[testindex,]
+trainset5<- h144N[-testindex,]
+index <- 1:nrow(h144N)
+testindex <- sample(index, trunc(length(index)/3))
+testset6<- h144N[testindex,]
+trainset6<- h144N[-testindex,]
+index <- 1:nrow(h144N)
+testindex <- sample(index, trunc(length(index)/3))
+testset7<- h144N[testindex,]
+trainset7<- h144N[-testindex,]
+index <- 1:nrow(h144N)
+testindex <- sample(index, trunc(length(index)/3))
+testset8<- h144N[testindex,]
+trainset8<- h144N[-testindex,]
+index <- 1:nrow(h144N)
+testindex <- sample(index, trunc(length(index)/3))
+testset9<- h144N[testindex,]
+trainset9<- h144N[-testindex,]
+index <- 1:nrow(h144N)
+testindex <- sample(index, trunc(length(index)/3))
+testset10<- h144N[testindex,]
+trainset10<- h144N[-testindex,]
+
+#PLSDA model on training
+
+daT1 = plsda(trainset1[,-1], trainset1[,1],  scale = TRUE, cv = list("rand",nseg=4,nrep=10))
+daT2 = plsda(trainset2[,-1], trainset2[,1],  scale = TRUE, cv = list("rand",nseg=4,nrep=10))
+daT3 = plsda(trainset3[,-1], trainset3[,1],  scale = TRUE, cv = list("rand",nseg=4,nrep=10))
+daT4 = plsda(trainset4[,-1], trainset4[,1],  scale = TRUE, cv = list("rand",nseg=4,nrep=10))
+daT5 = plsda(trainset5[,-1], trainset5[,1],  scale = TRUE, cv = list("rand",nseg=4,nrep=10))
+daT6 = plsda(trainset6[,-1], trainset6[,1],  scale = TRUE, cv = list("rand",nseg=4,nrep=10))
+daT7 = plsda(trainset7[,-1], trainset7[,1],  scale = TRUE, cv = list("rand",nseg=4,nrep=10))
+daT8 = plsda(trainset8[,-1], trainset8[,1],  scale = TRUE, cv = list("rand",nseg=4,nrep=10))
+daT9 = plsda(trainset9[,-1], trainset9[,1],  scale = TRUE, cv = list("rand",nseg=4,nrep=10))
+daT10 = plsda(trainset10[,-1], trainset10[,1],  scale = TRUE, cv = list("rand",nseg=4,nrep=10))
+
+#prediction on test
+
+T1= predict(daT1, testset1[,-1], testset1[,1])
+T2= predict(daT2, testset2[,-1], testset1[,1])
+T3= predict(daT3, testset3[,-1], testset1[,1])
+T4= predict(daT4, testset4[,-1], testset1[,1])
+T5= predict(daT5, testset5[,-1], testset1[,1])
+T6= predict(daT6, testset6[,-1], testset1[,1])
+T7= predict(daT7, testset7[,-1], testset1[,1])
+T8= predict(daT8, testset8[,-1], testset1[,1])
+T9= predict(daT9, testset9[,-1], testset1[,1])
+T10= predict(daT10, testset10[,-1], testset1[,1])
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,62 @@
+---
+title: "BIBstat"
+author: "Marcello Mascini"
+date: "4/25/2022"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+```{r bibliometrix, include=FALSE}
+library(bibliometrix)
+```
+
+
+# Working with Bibliometrix
+
+## Taking bibLo from scopus 
+ 
+
+```{r biba, echo=TRUE}
+
+M <- convert2df(file = "HABSscopus.bib" , dbsource = "scopus", format = "bibtex")
+results <- biblioAnalysis(M, sep = ";")
+S <- summary(object = results, k = 10, pause = FALSE)
+plot(x = results, k = 10, pause = FALSE)
+
+```
+
+
+
+# Creating a coMatrix
+## # Create keyword co-occurrences network
+
+```{r bibb, echo=TRUE}
+ID <- cocMatrix(M, Field = "ID", sep = ";")
+sort(Matrix::colSums(ID), decreasing = TRUE)[1:20]
+AB <- cocMatrix(M, Field = "AB", sep = " ")
+sort(Matrix::colSums(AB), decreasing = TRUE)[1:100]
+
+```
+
+# Plot the network
+
+```{r bibc, echo=TRUE}
+NetMatrix <- biblioNetwork(M, analysis = "co-occurrences", network = "keywords", sep = ";")
+
+net=networkPlot(NetMatrix, normalize="association", weighted=T, n = 30, Title = "Keyword Co-occurrences", type = "fruchterman", size=T,edgesize = 5,labelsize=0.7)
+
+```
+
+# Conceptual Structure using keywords (method="CA")
+## takes time header 2
+### sub header 3
+
+```{r bibd, eval=FALSE, include=FALSE}
+CS <- conceptualStructure(M,field="ID", method="CA", minDegree=4, clust=5, stemming=FALSE, labelsize=10, documents=10)

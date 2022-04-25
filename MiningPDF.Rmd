@@ -1,0 +1,188 @@
+---
+title: "Mining PDFs"
+output: html_document
+---
+# setup options chunk 
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#activate libraries
+
+```{r txt_lib, echo=TRUE}
+library(pdftools)
+library(tm) 
+library(wordcloud)
+library(RColorBrewer)
+library(ggplot2)
+library(tidytext)
+library(janeaustenr)
+library(dplyr)
+library(stringr)
+library(tidytext)
+library(tidyr)
+library(tibble)
+library(writexl)
+
+```
+
+#IMPORT documents from pdf
+##document split in pages
+
+```{r eval=FALSE, include=FALSE}
+HABS <- pdf_text("F:/Rmd_Project/pdf/HABS (4).pdf")
+
+```
+
+#document split in lines
+
+```{r eval=FALSE, include=FALSE}
+HABSstr <- pdf_text("F:/Rmd_Project/pdf/HABS (4).pdf") %>% str_split("\n")
+
+```
+
+```{r eval=FALSE, include=FALSE}
+df<-data.frame(HABSstr[[1:2]])
+write_xlsx(df, "F:/Rmd_Project/pdf1.xlsx")
+```
+
+#Working with multiple pdf files
+##create character list of all files ending with .pdf in folder 
+
+```{r eval=FALSE, include=FALSE}
+
+files <- list.files("F:/Rmd_Project/pdf/", pattern = "pdf$")
+
+```
+
+#use lapply() to apply pdf_text or other pdftools
+##function interactively cross each of the files
+
+```{r eval=FALSE, include=FALSE}
+
+setwd("F:/Rmd_Project/pdf/")
+pdfs<- lapply(files, pdf_text)
+lapply(pdfs, length) # check the length of each pdf file
+
+```
+
+#export as excel table each pdf file
+
+```{r eval=FALSE, include=FALSE}
+df<-data.frame(pdfs[[1]])
+write_xlsx(df, "F:/Rmd_Project/pdf.xlsx")
+```
+
+#Create a corpus with the vector that has the pdf files 
+
+```{r}
+setwd("F:/Rmd_Project/pdf/")
+files <- list.files("F:/Rmd_Project/pdf", pattern = "pdf$") # Vector of pdf file names
+pdfs <- lapply(files, pdf_text)# loads all  files 
+#length(pdfs)# verify how many files are in the pdfs
+#lapply(pdfs, length) # check the length of each pdf file
+#Create a corpus with the vector that has the three files 
+pdfdatabase <- Corpus(URISource(files), readerControl = list(reader = readPDF))# creating a PDF database
+
+```
+
+#Lets clean up the corpus
+##create your own list of stopwords, it has to be performed on the Corpus
+##remove english stopwords
+## Remove numbers
+
+```{r}
+#pdfdatabase<- tm_map(pdfdatabase, removeWords, c("abuse", "access", "affect"))
+
+pdfdatabase <- tm_map(pdfdatabase, removeWords, stopwords("english"))
+
+pdfdatabase <- tm_map(pdfdatabase, removeNumbers)
+
+
+```
+
+#Only words that appear at least two times are counted in this example. 
+
+```{r}
+pdfs.tdm <- TermDocumentMatrix(pdfdatabase,control = list(removePunctuation = TRUE, stopwords = TRUE, tolower = TRUE, stemming = FALSE, removeNumbers = TRUE, bounds = list(global = c(2,Inf))))
+
+```
+
+#Examine  10 words at a time in across documents. The range below specifies the first 10. 
+
+```{r eval=FALSE, include=FALSE}
+inspect(pdfs.tdm[1:2,])
+
+```
+
+#Frequent terms that appear at least lowfreq  times across all documents
+
+```{r eval=FALSE, include=FALSE}
+findFreqTerms(pdfs.tdm, lowfreq = 100, highfreq = Inf) 
+
+```
+
+#Compare the distribution of frequently appearing words across pdfs
+
+```{r}
+
+ft <- findFreqTerms(pdfs.tdm, lowfreq = 100, highfreq = Inf)
+#as.matrix(pdfs.tdm[ft,])
+
+```
+
+#Sum the count of all frequently occurring words
+
+```{r}
+ft.tdm <- as.matrix(pdfs.tdm[ft,])
+sort(apply(ft.tdm, 1, sum), decreasing = TRUE)
+
+```
+
+#conducting correlation analysis and creating graphs and charts Lets find frequent terms that appear at least lowfreq times. 
+
+```{r}
+
+findFreqTerms(pdfs.tdm, lowfreq = 100)
+
+```
+
+
+#Examine frequent Terms and their association. In this example we are looking at the frequent terms related to binding. The correlation limit that is being examined is a correlation of 75% or greater. 
+
+```{r}
+
+findAssocs(pdfs.tdm, terms = "binding", corlimit = 0.75)
+
+
+```
+
+
+#To create a word cloud or bar chart you must convert the term document matrix to a data frame.
+
+```{r}
+m <- as.matrix(pdfs.tdm)
+v <- sort(rowSums(m),decreasing=TRUE)
+d <- data.frame(word = names(v),freq=v)
+
+```
+
+#Create word cloud
+
+```{r}
+set.seed(1234)
+wordcloud(words = d$word, freq = d$freq, min.freq = 10,
+          max.words=100, random.order=FALSE, rot.per=0.35, 
+          colors=brewer.pal(8, "Dark2"))
+
+```
+
+#Create Bar chart 
+
+```{r}
+barplot(d[1:11,]$freq, las = 2, names.arg = d[1:11,]$word,
+        col ="lightblue", main ="Most frequent words",
+        ylab = "Word frequencies")
+
+```
